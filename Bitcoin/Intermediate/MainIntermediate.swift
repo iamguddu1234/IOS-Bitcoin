@@ -31,15 +31,15 @@ struct MainIntermediate: View {
                 VStack(spacing: 0) {
                     
                     
-                    LottieView(animationName: "basic", loopMode: .loop)
+                    LottieView(animationName: "fut", loopMode: .loop)
                         .frame(width: .infinity, height: 200)
                     
                     ListViewI1(showTabBar: $showTabBar)
-                        .frame(height: 400) // or use a specific height
+                        .frame(height: 480) // or use a specific height
                     
                     ListViewI2(showTabBar: $showTabBar)
                         .padding(.vertical, 0)
-                        .frame(height: 440) // or use a specific height
+                        .frame(height: 520) // or use a specific height
         
                     
                     
@@ -67,14 +67,16 @@ struct ListViewI1: View {
     
     var body: some View {
         List {
-            ForEach(["Scan Ip or Domian Name",
-                     "Scan Multiple Ip Address",
-                     "Scan Network for active computer",
-                     "Fast scan Perform",
-                     "Show open port",
-                     "Detect OS",
-                     "Service Version Detection",
-                     "Firewall Detection",
+            ForEach(["What is Bitcoin? (History, Origin)",
+                     "The Problem Bitcoin Solves (Traditional Financial System Issues)",
+                     "Decentralization Explained (How Bitcoin Works Without a Central Bank)",
+                     "Blockchain Technology (The Public Ledger System)",
+                     "Proof of Work (Mining and Transaction Verification)",
+                     "Wallets and Private Keys (Securing Your Bitcoin)",
+                     "Transactions and Fees (Sending and Receiving Bitcoin)",
+                     "Supply and Demand (Why There's a Limited Amount of Bitcoin)",
+                     "Security and Risks (Understanding Vulnerabilities)",
+                     "Bitcoin vs. Altcoins (Comparing Bitcoin to Other Cryptocurrencies)",
                   ], id: \.self) { item in
                 NavigationLink(destination: destinationView(for: item)
                     .onAppear { showTabBar = false }
@@ -93,23 +95,27 @@ struct ListViewI1: View {
     
     func destinationView(for item: String) -> some View {
         switch item {
-        case "Scan Ip or Domian Name":
-            return AnyView(I1_scan_id().navigationTitle(item))
-        case "Scan Multiple Ip Address":
-            return AnyView(I2_scan_multiple_ip().navigationTitle(item))
-        case "Scan Network for active computer":
-            return AnyView(I3_scan_network().navigationTitle(item))
-        case "Fast scan Perform":
-            return AnyView(I4_fast_scan().navigationTitle(item))
-        case "Show open port":
-            return AnyView(I5_show_open_port().navigationTitle(item))
-        case "Detect OS":
-            return AnyView(I6_detect_os().navigationTitle(item))
-        case "Service Version Detection":
-            return AnyView(I7_service_version_detection().navigationTitle(item))
-        case "Firewall Detection":
-            return AnyView(I8_firewall_detection().navigationTitle(item))
-         
+        case "What is Bitcoin? (History, Origin)":
+            return AnyView(I1_what_is_bitcoin().navigationTitle(item))
+        case "The Problem Bitcoin Solves (Traditional Financial System Issues)":
+            return AnyView(I2_the_problem_bitcoin().navigationTitle(item))
+        case "Decentralization Explained (How Bitcoin Works Without a Central Bank)":
+            return AnyView(I3_decentralized().navigationTitle(item))
+        case "Blockchain Technology (The Public Ledger System)":
+            return AnyView(I4_blockchain().navigationTitle(item))
+        case "Proof of Work (Mining and Transaction Verification)":
+            return AnyView(I5_proof_of_work().navigationTitle(item))
+        case "Wallets and Private Keys (Securing Your Bitcoin)":
+            return AnyView(I6_wallets().navigationTitle(item))
+        case "Transactions and Fees (Sending and Receiving Bitcoin)":
+            return AnyView(I7_transaction().navigationTitle(item))
+        case "Supply and Demand (Why There's a Limited Amount of Bitcoin)":
+            return AnyView(I8_supply().navigationTitle(item))
+        case "Security and Risks (Understanding Vulnerabilities)":
+            return AnyView(I9_security().navigationTitle(item))
+        case "Bitcoin vs. Altcoins (Comparing Bitcoin to Other Cryptocurrencies)":
+            return AnyView(I10_altcoin().navigationTitle(item))
+        
         default:
             return AnyView(EmptyView().navigationTitle("Unknown"))
         }
@@ -121,14 +127,16 @@ struct ListViewI2: View {
     
     var body: some View {
         List {
-            ForEach(["No ping (Disable host)",
-                     "Stealthy Scan",
-                     "Disable DNS Resolution",
-                     "Mac Address Spoofing",
-                     "Determine support ip protocols",
-                     "Scan for tcp/udp port",
-                     "Scan list of host from input file",
-                     "Save output of nmap scan to a file",
+            ForEach(["Bitcoin Architecture (Blocks, Chains, and Nodes)",
+                     "Cryptography (The Math Behind Bitcoin Security)",
+                     "Hashing Functions (Ensuring Data Integrity)",
+                     "Merkle Trees (Efficient Transaction Verification)",
+                     "Difficulty Adjustment (Maintaining Network Security)",
+                     "Scalability Challenges and Solutions (The Lightning Network)",
+                     "Smart Contracts (Potential Applications Beyond Currency)",
+                     "Forks and Soft Forks (Upgrades and Changes to the Bitcoin Protocol)",
+                     "Full Nodes vs. Lightweight Nodes (Running Your Own Node)",
+                     "Regulation and Compliance (Government Involvement in Crypto)",
                     ], id: \.self) { item in
                 NavigationLink(destination: destinationView(for: item)
                     .onAppear { showTabBar = false }
@@ -147,22 +155,26 @@ struct ListViewI2: View {
     
     func destinationView(for item: String) -> some View {
         switch item {
-        case "No ping (Disable host)":
-            return AnyView(I9_no_ping().navigationTitle(item))
-        case "Stealthy Scan":
-            return AnyView(I10_stealthy_scan().navigationTitle(item))
-        case "Disable DNS Resolution":
-            return AnyView(I11_disable_dns().navigationTitle(item))
-        case "Mac Address Spoofing":
-            return AnyView(I12_macaddress_spoofing().navigationTitle(item))
-        case "Determine support ip protocols":
-            return AnyView(I13_determine_support_ip().navigationTitle(item))
-        case "Scan for tcp/udp port":
-            return AnyView(I14_scan_tcp_udp().navigationTitle(item))
-        case "Scan list of host from input file":
-            return AnyView(I15_scan_list_host().navigationTitle(item))
-        case "Save output of nmap scan to a file":
-            return AnyView(I16_scan_output().navigationTitle(item))
+        case "Bitcoin Architecture (Blocks, Chains, and Nodes)":
+            return AnyView(I11_archtechture().navigationTitle(item))
+        case "Cryptography (The Math Behind Bitcoin Security)":
+            return AnyView(i12_cryptography().navigationTitle(item))
+        case "Hashing Functions (Ensuring Data Integrity)":
+            return AnyView(I13_hashing_function().navigationTitle(item))
+        case "Merkle Trees (Efficient Transaction Verification)":
+            return AnyView(I14_merkle_tree().navigationTitle(item))
+        case "Difficulty Adjustment (Maintaining Network Security)":
+            return AnyView(I15_difficult_adjustment().navigationTitle(item))
+        case "Scalability Challenges and Solutions (The Lightning Network)":
+            return AnyView(I16_scalability().navigationTitle(item))
+        case "Smart Contracts (Potential Applications Beyond Currency)":
+            return AnyView(I17_smart_contract().navigationTitle(item))
+        case "Forks and Soft Forks (Upgrades and Changes to the Bitcoin Protocol)":
+            return AnyView(I18_forks().navigationTitle(item))
+        case "Full Nodes vs. Lightweight Nodes (Running Your Own Node)":
+            return AnyView(I19_nodes().navigationTitle(item))
+        case "Regulation and Compliance (Government Involvement in Crypto)":
+            return AnyView(I20_regulation().navigationTitle(item))
         
         default:
             return AnyView(EmptyView().navigationTitle("Unknown"))

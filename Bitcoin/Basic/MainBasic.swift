@@ -31,11 +31,11 @@ struct MainBasic: View {
                 VStack(spacing: 0) {
                     
                    
-                    LottieView(animationName: "ani", loopMode: .loop)
+                    LottieView(animationName: "bc", loopMode: .loop)
                         .frame(width: .infinity, height: 200)
                     
                     ListViewB1(showTabBar: $showTabBar)
-                        .frame(height: 300) // or use a specific height
+                        .frame(height: 260) // or use a specific height
 
                     ListViewB2(showTabBar: $showTabBar)
                         .padding(.vertical, 0)
@@ -68,11 +68,11 @@ struct ListViewB1: View {
     var body: some View {
         List {
             ForEach(["Introduction",
-                     "What is Nmap?",
-                     "Download And Install",
-                     "Top Nmap Script",
-                    "Top Nmap Commands",
-                    "Nmap's command-line interface"], id: \.self) { item in
+                     "History",
+                     "Who is Satoshi Nakamoto?",
+                     "What is Cryptocurrency?",
+                    "What is BlockChain?",
+                 ], id: \.self) { item in
                 NavigationLink(destination: destinationView(for: item)
                                 .onAppear { showTabBar = false }
                     .navigationTitle(item)) {
@@ -91,17 +91,15 @@ struct ListViewB1: View {
     func destinationView(for item: String) -> some View {
         switch item {
         case "Introduction":
-            return AnyView(B1_Intro().navigationTitle(item))
-        case "What is Nmap?":
-            return AnyView(B2_whatis_nmap().navigationTitle(item))
-        case "Download And Install":
-            return AnyView(B3_download_n_install().navigationTitle(item))
-        case "Top Nmap Script":
-            return AnyView(B4_top_nmap_script().navigationTitle(item))
-        case "Top Nmap Commands":
-            return AnyView(B5_top_nmap_commands().navigationTitle(item))
-        case "Nmap's command-line interface":
-            return AnyView(B6_nmap_cmd_line_interface().navigationTitle(item))
+            return AnyView(B1_intro().navigationTitle(item))
+        case "History":
+            return AnyView(b2_history().navigationTitle(item))
+        case "Who is Satoshi Nakamoto?":
+            return AnyView(B3_who_is_santoshi_nakamoto().navigationTitle(item))
+        case "What is Cryptocurrency?":
+            return AnyView(B4_what_is_crypto().navigationTitle(item))
+        case "What is BlockChain?":
+            return AnyView(B5_what_is_blockchain().navigationTitle(item))
         default:
             return AnyView(EmptyView().navigationTitle("Unknown"))
         }
@@ -113,12 +111,12 @@ struct ListViewB2: View {
 
     var body: some View {
         List {
-            ForEach(["Understanding ports and their importance",
-                     "Host discovery methods",
-                     "Introduction to Nmap scripting engine (NSE)",
-                     "Nmap Firewall Evasion Techniques",
-                     "Scanning techniques for specific purposes",
-                     "Security and ethical considerations when using Nmap"
+            ForEach(["Bitcoin Mining",
+                     "Bitcoin-BUY,SELL,SEND,RECEIVE",
+                     "Advantages And Disadvantages",
+                     "Bitcoin Application",
+                     "Bitcoin Future",
+                     "Unknown Bitcoin Fact"
                     ], id: \.self) { item in
                 NavigationLink(destination: destinationView(for: item)
                                 .onAppear { showTabBar = false }
@@ -137,18 +135,18 @@ struct ListViewB2: View {
 
     func destinationView(for item: String) -> some View {
         switch item {
-        case "Understanding ports and their importance":
-            return AnyView(B7_understand_port().navigationTitle(item))
-        case "Host discovery methods":
-            return AnyView(B8_host_discovery_method().navigationTitle(item))
-        case "Introduction to Nmap scripting engine (NSE)":
-            return AnyView(B9_intro_nse().navigationTitle(item))
-        case "Nmap Firewall Evasion Techniques":
-            return AnyView(B10_nmap_firewall_evasion_techniques().navigationTitle(item))
-        case "Scanning techniques for specific purposes":
-            return AnyView(B11_Scanning_techniques().navigationTitle(item))
-        case "Security and ethical considerations when using Nmap":
-            return AnyView(B12_security_n_ethical().navigationTitle(item))
+        case "Bitcoin Mining":
+            return AnyView(B6_bitcoin_minning().navigationTitle(item))
+        case "Bitcoin-BUY,SELL,SEND,RECEIVE":
+            return AnyView(B7_bitcoin_sell().navigationTitle(item))
+        case "Advantages And Disadvantages":
+            return AnyView(B8_adv_dis().navigationTitle(item))
+        case "Bitcoin Application":
+            return AnyView(B9_bitcoin_application().navigationTitle(item))
+        case "Bitcoin Future":
+            return AnyView(B10_bitcoin_future().navigationTitle(item))
+        case "Unknown Bitcoin Fact":
+            return AnyView(B11_fact().navigationTitle(item))
    
         default:
             return AnyView(EmptyView().navigationTitle("Unknown"))

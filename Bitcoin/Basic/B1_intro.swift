@@ -9,7 +9,15 @@ import SwiftUI
 
 struct B1_intro: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        
+        ScrollView(.vertical, showsIndicators: false) {
+            VStack {
+                ForEach(items, id: \.id) { item in
+                    ItemRow(item: item)
+                }
+            }
+        }
     }
 }
 

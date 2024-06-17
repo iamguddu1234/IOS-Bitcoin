@@ -11,6 +11,75 @@
 		B23935182C0DDF180072CC1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935172C0DDF180072CC1D /* ContentView.swift */; };
 		B239351A2C0DDF1A0072CC1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23935192C0DDF1A0072CC1D /* Assets.xcassets */; };
 		B239351D2C0DDF1A0072CC1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B239351C2C0DDF1A0072CC1D /* Preview Assets.xcassets */; };
+		B23935252C0DDF290072CC1D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = B23935242C0DDF290072CC1D /* Lottie */; };
+		B23935272C0DDF380072CC1D /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935262C0DDF380072CC1D /* LottieView.swift */; };
+		B23935292C0DDF440072CC1D /* BannerAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935282C0DDF440072CC1D /* BannerAds.swift */; };
+		B239352B2C0DDF4C0072CC1D /* MainBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239352A2C0DDF4C0072CC1D /* MainBasic.swift */; };
+		B239352D2C0DDF530072CC1D /* MainIntermediate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239352C2C0DDF530072CC1D /* MainIntermediate.swift */; };
+		B239352F2C0DDF5D0072CC1D /* MainAdvance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239352E2C0DDF5D0072CC1D /* MainAdvance.swift */; };
+		B23935362C0E35AE0072CC1D /* B1_intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935352C0E35AE0072CC1D /* B1_intro.swift */; };
+		B23935382C0E35B60072CC1D /* b2_history.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935372C0E35B60072CC1D /* b2_history.swift */; };
+		B239353A2C0E35C50072CC1D /* B3_who_is_santoshi_nakamoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935392C0E35C50072CC1D /* B3_who_is_santoshi_nakamoto.swift */; };
+		B239353C2C0E35DA0072CC1D /* B4_what_is_crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239353B2C0E35DA0072CC1D /* B4_what_is_crypto.swift */; };
+		B239353E2C0E35E70072CC1D /* B5_what_is_blockchain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239353D2C0E35E70072CC1D /* B5_what_is_blockchain.swift */; };
+		B23935402C0E363F0072CC1D /* B6_bitcoin_minning.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239353F2C0E363F0072CC1D /* B6_bitcoin_minning.swift */; };
+		B23935422C0E366B0072CC1D /* B7_bitcoin_sell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935412C0E366B0072CC1D /* B7_bitcoin_sell.swift */; };
+		B23935442C0E36860072CC1D /* B8_adv_dis.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935432C0E36860072CC1D /* B8_adv_dis.swift */; };
+		B23935462C0E369A0072CC1D /* B9_bitcoin_application.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935452C0E369A0072CC1D /* B9_bitcoin_application.swift */; };
+		B23935482C0E36B10072CC1D /* B10_bitcoin_future.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935472C0E36B10072CC1D /* B10_bitcoin_future.swift */; };
+		B239354A2C0E36B90072CC1D /* B11_fact.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935492C0E36B90072CC1D /* B11_fact.swift */; };
+		B239354C2C103C040072CC1D /* I1_what_is_bitcoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239354B2C103C040072CC1D /* I1_what_is_bitcoin.swift */; };
+		B239354E2C103C150072CC1D /* I2_the_problem_bitcoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239354D2C103C150072CC1D /* I2_the_problem_bitcoin.swift */; };
+		B23935502C103C220072CC1D /* I3_decentralized.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239354F2C103C220072CC1D /* I3_decentralized.swift */; };
+		B23935522C103C300072CC1D /* I4_blockchain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935512C103C300072CC1D /* I4_blockchain.swift */; };
+		B23935542C103C3C0072CC1D /* I5_proof_of_work.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935532C103C3C0072CC1D /* I5_proof_of_work.swift */; };
+		B23935562C103C460072CC1D /* I6_wallets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935552C103C460072CC1D /* I6_wallets.swift */; };
+		B23935582C103C530072CC1D /* I7_transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935572C103C530072CC1D /* I7_transaction.swift */; };
+		B239355A2C103C5F0072CC1D /* I8_supply.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935592C103C5F0072CC1D /* I8_supply.swift */; };
+		B239355C2C103C6E0072CC1D /* I9_security.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239355B2C103C6E0072CC1D /* I9_security.swift */; };
+		B239355E2C103C7A0072CC1D /* I10_altcoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239355D2C103C7A0072CC1D /* I10_altcoin.swift */; };
+		B23935602C103CE60072CC1D /* I11_archtechture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239355F2C103CE60072CC1D /* I11_archtechture.swift */; };
+		B23935622C103CF30072CC1D /* i12_cryptography.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935612C103CF30072CC1D /* i12_cryptography.swift */; };
+		B23935642C103D030072CC1D /* I13_hashing_function.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935632C103D030072CC1D /* I13_hashing_function.swift */; };
+		B23935662C103D120072CC1D /* I14_merkle_tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935652C103D120072CC1D /* I14_merkle_tree.swift */; };
+		B23935682C103D240072CC1D /* I15_difficult_adjustment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935672C103D240072CC1D /* I15_difficult_adjustment.swift */; };
+		B239356A2C103D310072CC1D /* I16_scalability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935692C103D310072CC1D /* I16_scalability.swift */; };
+		B239356C2C103D3C0072CC1D /* I17_smart_contract.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239356B2C103D3C0072CC1D /* I17_smart_contract.swift */; };
+		B239356E2C103D480072CC1D /* I18_forks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239356D2C103D480072CC1D /* I18_forks.swift */; };
+		B23935702C103D530072CC1D /* I19_nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239356F2C103D530072CC1D /* I19_nodes.swift */; };
+		B23935722C103D5C0072CC1D /* I20_regulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935712C103D5C0072CC1D /* I20_regulation.swift */; };
+		B23935742C103E000072CC1D /* A1_monetory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935732C103E000072CC1D /* A1_monetory.swift */; };
+		B23935762C103E0C0072CC1D /* A2_store.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935752C103E0C0072CC1D /* A2_store.swift */; };
+		B23935782C103E170072CC1D /* A3_medium.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935772C103E170072CC1D /* A3_medium.swift */; };
+		B239357A2C103E220072CC1D /* A4_network_effect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935792C103E220072CC1D /* A4_network_effect.swift */; };
+		B239357C2C103E300072CC1D /* A5_austrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239357B2C103E300072CC1D /* A5_austrain.swift */; };
+		B239357E2C103E420072CC1D /* A6_deflationary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239357D2C103E420072CC1D /* A6_deflationary.swift */; };
+		B23935802C103E4D0072CC1D /* A7_bubbles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239357F2C103E4D0072CC1D /* A7_bubbles.swift */; };
+		B23935822C103E580072CC1D /* A8_minning.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935812C103E580072CC1D /* A8_minning.swift */; };
+		B23935842C103E620072CC1D /* A9_final.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935832C103E620072CC1D /* A9_final.swift */; };
+		B23935862C103E700072CC1D /* A10_the_future.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935852C103E700072CC1D /* A10_the_future.swift */; };
+		B23935882C103F910072CC1D /* A11_privacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935872C103F910072CC1D /* A11_privacy.swift */; };
+		B239358A2C103F9D0072CC1D /* A12_quantum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935892C103F9D0072CC1D /* A12_quantum.swift */; };
+		B239358C2C103FAA0072CC1D /* A13_security.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239358B2C103FAA0072CC1D /* A13_security.swift */; };
+		B239358E2C103FB20072CC1D /* A14_tax.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239358D2C103FB20072CC1D /* A14_tax.swift */; };
+		B23935902C103FBD0072CC1D /* A15_minning.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239358F2C103FBD0072CC1D /* A15_minning.swift */; };
+		B23935922C103FC90072CC1D /* A16_cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935912C103FC90072CC1D /* A16_cloud.swift */; };
+		B23935942C103FD80072CC1D /* A17-derivatives.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935932C103FD80072CC1D /* A17-derivatives.swift */; };
+		B23935962C103FEE0072CC1D /* A18_non_fungable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935952C103FEE0072CC1D /* A18_non_fungable.swift */; };
+		B23935982C103FFD0072CC1D /* A19_decentralized.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935972C103FFD0072CC1D /* A19_decentralized.swift */; };
+		B239359A2C10400E0072CC1D /* A20_the_philosophy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935992C10400E0072CC1D /* A20_the_philosophy.swift */; };
+		B239359C2C10401B0072CC1D /* A21_famous.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239359B2C10401B0072CC1D /* A21_famous.swift */; };
+		B239359E2C1040250072CC1D /* A22_real_world.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239359D2C1040250072CC1D /* A22_real_world.swift */; };
+		B23935A02C10402E0072CC1D /* A23_env.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239359F2C10402E0072CC1D /* A23_env.swift */; };
+		B23935A22C1040410072CC1D /* A24_the_futu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935A12C1040410072CC1D /* A24_the_futu.swift */; };
+		B23935A42C10404E0072CC1D /* A25_ethical.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935A32C10404E0072CC1D /* A25_ethical.swift */; };
+		B2D162722C186B63007B0F31 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D162712C186B63007B0F31 /* Demo.swift */; };
+		B2DD15A52C142DA900AF3D3B /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD15A42C142DA900AF3D3B /* ItemRow.swift */; };
+		B2DD15AB2C142DDF00AF3D3B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD15AA2C142DDF00AF3D3B /* Item.swift */; };
+		B2DD15AF2C142E1300AF3D3B /* ItemContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD15AE2C142E1300AF3D3B /* ItemContainer.swift */; };
+		B2DD15B12C14686400AF3D3B /* Text1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD15B02C14686400AF3D3B /* Text1.swift */; };
+		B2DD15B32C14686A00AF3D3B /* Text2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD15B22C14686A00AF3D3B /* Text2.swift */; };
+		B2DD15B52C14687200AF3D3B /* Text3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD15B42C14687200AF3D3B /* Text3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +88,74 @@
 		B23935172C0DDF180072CC1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B23935192C0DDF1A0072CC1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B239351C2C0DDF1A0072CC1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B23935262C0DDF380072CC1D /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		B23935282C0DDF440072CC1D /* BannerAds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAds.swift; sourceTree = "<group>"; };
+		B239352A2C0DDF4C0072CC1D /* MainBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBasic.swift; sourceTree = "<group>"; };
+		B239352C2C0DDF530072CC1D /* MainIntermediate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainIntermediate.swift; sourceTree = "<group>"; };
+		B239352E2C0DDF5D0072CC1D /* MainAdvance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAdvance.swift; sourceTree = "<group>"; };
+		B23935352C0E35AE0072CC1D /* B1_intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B1_intro.swift; sourceTree = "<group>"; };
+		B23935372C0E35B60072CC1D /* b2_history.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = b2_history.swift; sourceTree = "<group>"; };
+		B23935392C0E35C50072CC1D /* B3_who_is_santoshi_nakamoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B3_who_is_santoshi_nakamoto.swift; sourceTree = "<group>"; };
+		B239353B2C0E35DA0072CC1D /* B4_what_is_crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B4_what_is_crypto.swift; sourceTree = "<group>"; };
+		B239353D2C0E35E70072CC1D /* B5_what_is_blockchain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B5_what_is_blockchain.swift; sourceTree = "<group>"; };
+		B239353F2C0E363F0072CC1D /* B6_bitcoin_minning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B6_bitcoin_minning.swift; sourceTree = "<group>"; };
+		B23935412C0E366B0072CC1D /* B7_bitcoin_sell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B7_bitcoin_sell.swift; sourceTree = "<group>"; };
+		B23935432C0E36860072CC1D /* B8_adv_dis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B8_adv_dis.swift; sourceTree = "<group>"; };
+		B23935452C0E369A0072CC1D /* B9_bitcoin_application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B9_bitcoin_application.swift; sourceTree = "<group>"; };
+		B23935472C0E36B10072CC1D /* B10_bitcoin_future.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B10_bitcoin_future.swift; sourceTree = "<group>"; };
+		B23935492C0E36B90072CC1D /* B11_fact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B11_fact.swift; sourceTree = "<group>"; };
+		B239354B2C103C040072CC1D /* I1_what_is_bitcoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I1_what_is_bitcoin.swift; sourceTree = "<group>"; };
+		B239354D2C103C150072CC1D /* I2_the_problem_bitcoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I2_the_problem_bitcoin.swift; sourceTree = "<group>"; };
+		B239354F2C103C220072CC1D /* I3_decentralized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I3_decentralized.swift; sourceTree = "<group>"; };
+		B23935512C103C300072CC1D /* I4_blockchain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I4_blockchain.swift; sourceTree = "<group>"; };
+		B23935532C103C3C0072CC1D /* I5_proof_of_work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I5_proof_of_work.swift; sourceTree = "<group>"; };
+		B23935552C103C460072CC1D /* I6_wallets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I6_wallets.swift; sourceTree = "<group>"; };
+		B23935572C103C530072CC1D /* I7_transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I7_transaction.swift; sourceTree = "<group>"; };
+		B23935592C103C5F0072CC1D /* I8_supply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I8_supply.swift; sourceTree = "<group>"; };
+		B239355B2C103C6E0072CC1D /* I9_security.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I9_security.swift; sourceTree = "<group>"; };
+		B239355D2C103C7A0072CC1D /* I10_altcoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I10_altcoin.swift; sourceTree = "<group>"; };
+		B239355F2C103CE60072CC1D /* I11_archtechture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I11_archtechture.swift; sourceTree = "<group>"; };
+		B23935612C103CF30072CC1D /* i12_cryptography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = i12_cryptography.swift; sourceTree = "<group>"; };
+		B23935632C103D030072CC1D /* I13_hashing_function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I13_hashing_function.swift; sourceTree = "<group>"; };
+		B23935652C103D120072CC1D /* I14_merkle_tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I14_merkle_tree.swift; sourceTree = "<group>"; };
+		B23935672C103D240072CC1D /* I15_difficult_adjustment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I15_difficult_adjustment.swift; sourceTree = "<group>"; };
+		B23935692C103D310072CC1D /* I16_scalability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I16_scalability.swift; sourceTree = "<group>"; };
+		B239356B2C103D3C0072CC1D /* I17_smart_contract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I17_smart_contract.swift; sourceTree = "<group>"; };
+		B239356D2C103D480072CC1D /* I18_forks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I18_forks.swift; sourceTree = "<group>"; };
+		B239356F2C103D530072CC1D /* I19_nodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I19_nodes.swift; sourceTree = "<group>"; };
+		B23935712C103D5C0072CC1D /* I20_regulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I20_regulation.swift; sourceTree = "<group>"; };
+		B23935732C103E000072CC1D /* A1_monetory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A1_monetory.swift; sourceTree = "<group>"; };
+		B23935752C103E0C0072CC1D /* A2_store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A2_store.swift; sourceTree = "<group>"; };
+		B23935772C103E170072CC1D /* A3_medium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A3_medium.swift; sourceTree = "<group>"; };
+		B23935792C103E220072CC1D /* A4_network_effect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A4_network_effect.swift; sourceTree = "<group>"; };
+		B239357B2C103E300072CC1D /* A5_austrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A5_austrain.swift; sourceTree = "<group>"; };
+		B239357D2C103E420072CC1D /* A6_deflationary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A6_deflationary.swift; sourceTree = "<group>"; };
+		B239357F2C103E4D0072CC1D /* A7_bubbles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A7_bubbles.swift; sourceTree = "<group>"; };
+		B23935812C103E580072CC1D /* A8_minning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A8_minning.swift; sourceTree = "<group>"; };
+		B23935832C103E620072CC1D /* A9_final.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A9_final.swift; sourceTree = "<group>"; };
+		B23935852C103E700072CC1D /* A10_the_future.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A10_the_future.swift; sourceTree = "<group>"; };
+		B23935872C103F910072CC1D /* A11_privacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A11_privacy.swift; sourceTree = "<group>"; };
+		B23935892C103F9D0072CC1D /* A12_quantum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A12_quantum.swift; sourceTree = "<group>"; };
+		B239358B2C103FAA0072CC1D /* A13_security.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A13_security.swift; sourceTree = "<group>"; };
+		B239358D2C103FB20072CC1D /* A14_tax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A14_tax.swift; sourceTree = "<group>"; };
+		B239358F2C103FBD0072CC1D /* A15_minning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A15_minning.swift; sourceTree = "<group>"; };
+		B23935912C103FC90072CC1D /* A16_cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A16_cloud.swift; sourceTree = "<group>"; };
+		B23935932C103FD80072CC1D /* A17-derivatives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A17-derivatives.swift"; sourceTree = "<group>"; };
+		B23935952C103FEE0072CC1D /* A18_non_fungable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A18_non_fungable.swift; sourceTree = "<group>"; };
+		B23935972C103FFD0072CC1D /* A19_decentralized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A19_decentralized.swift; sourceTree = "<group>"; };
+		B23935992C10400E0072CC1D /* A20_the_philosophy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A20_the_philosophy.swift; sourceTree = "<group>"; };
+		B239359B2C10401B0072CC1D /* A21_famous.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A21_famous.swift; sourceTree = "<group>"; };
+		B239359D2C1040250072CC1D /* A22_real_world.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A22_real_world.swift; sourceTree = "<group>"; };
+		B239359F2C10402E0072CC1D /* A23_env.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A23_env.swift; sourceTree = "<group>"; };
+		B23935A12C1040410072CC1D /* A24_the_futu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A24_the_futu.swift; sourceTree = "<group>"; };
+		B23935A32C10404E0072CC1D /* A25_ethical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A25_ethical.swift; sourceTree = "<group>"; };
+		B2D162712C186B63007B0F31 /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
+		B2DD15A42C142DA900AF3D3B /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		B2DD15AA2C142DDF00AF3D3B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		B2DD15AE2C142E1300AF3D3B /* ItemContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemContainer.swift; sourceTree = "<group>"; };
+		B2DD15B02C14686400AF3D3B /* Text1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text1.swift; sourceTree = "<group>"; };
+		B2DD15B22C14686A00AF3D3B /* Text2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text2.swift; sourceTree = "<group>"; };
+		B2DD15B42C14687200AF3D3B /* Text3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B23935252C0DDF290072CC1D /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +193,18 @@
 				B23935172C0DDF180072CC1D /* ContentView.swift */,
 				B23935192C0DDF1A0072CC1D /* Assets.xcassets */,
 				B239351B2C0DDF1A0072CC1D /* Preview Content */,
+				B23935302C0DDFAB0072CC1D /* Lottie */,
+				B23935312C0DDFB10072CC1D /* Ads */,
+				B23935322C0DDFB60072CC1D /* Basic */,
+				B23935332C0DDFBB0072CC1D /* Intermediate */,
+				B23935342C0DDFCA0072CC1D /* Advance */,
+				B2DD15A42C142DA900AF3D3B /* ItemRow.swift */,
+				B2DD15AE2C142E1300AF3D3B /* ItemContainer.swift */,
+				B2DD15AA2C142DDF00AF3D3B /* Item.swift */,
+				B2DD15B02C14686400AF3D3B /* Text1.swift */,
+				B2DD15B22C14686A00AF3D3B /* Text2.swift */,
+				B2DD15B42C14687200AF3D3B /* Text3.swift */,
+				B2D162712C186B63007B0F31 /* Demo.swift */,
 			);
 			path = Bitcoin;
 			sourceTree = "<group>";
@@ -65,6 +215,102 @@
 				B239351C2C0DDF1A0072CC1D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B23935302C0DDFAB0072CC1D /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				B23935262C0DDF380072CC1D /* LottieView.swift */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		B23935312C0DDFB10072CC1D /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				B23935282C0DDF440072CC1D /* BannerAds.swift */,
+			);
+			path = Ads;
+			sourceTree = "<group>";
+		};
+		B23935322C0DDFB60072CC1D /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				B239352A2C0DDF4C0072CC1D /* MainBasic.swift */,
+				B23935472C0E36B10072CC1D /* B10_bitcoin_future.swift */,
+				B23935492C0E36B90072CC1D /* B11_fact.swift */,
+				B239353B2C0E35DA0072CC1D /* B4_what_is_crypto.swift */,
+				B239353D2C0E35E70072CC1D /* B5_what_is_blockchain.swift */,
+				B23935352C0E35AE0072CC1D /* B1_intro.swift */,
+				B23935372C0E35B60072CC1D /* b2_history.swift */,
+				B23935392C0E35C50072CC1D /* B3_who_is_santoshi_nakamoto.swift */,
+				B239353F2C0E363F0072CC1D /* B6_bitcoin_minning.swift */,
+				B23935412C0E366B0072CC1D /* B7_bitcoin_sell.swift */,
+				B23935432C0E36860072CC1D /* B8_adv_dis.swift */,
+				B23935452C0E369A0072CC1D /* B9_bitcoin_application.swift */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		B23935332C0DDFBB0072CC1D /* Intermediate */ = {
+			isa = PBXGroup;
+			children = (
+				B239352C2C0DDF530072CC1D /* MainIntermediate.swift */,
+				B239354B2C103C040072CC1D /* I1_what_is_bitcoin.swift */,
+				B239354D2C103C150072CC1D /* I2_the_problem_bitcoin.swift */,
+				B239354F2C103C220072CC1D /* I3_decentralized.swift */,
+				B23935512C103C300072CC1D /* I4_blockchain.swift */,
+				B23935532C103C3C0072CC1D /* I5_proof_of_work.swift */,
+				B23935552C103C460072CC1D /* I6_wallets.swift */,
+				B23935572C103C530072CC1D /* I7_transaction.swift */,
+				B23935592C103C5F0072CC1D /* I8_supply.swift */,
+				B239355B2C103C6E0072CC1D /* I9_security.swift */,
+				B239355D2C103C7A0072CC1D /* I10_altcoin.swift */,
+				B239355F2C103CE60072CC1D /* I11_archtechture.swift */,
+				B23935612C103CF30072CC1D /* i12_cryptography.swift */,
+				B23935632C103D030072CC1D /* I13_hashing_function.swift */,
+				B23935652C103D120072CC1D /* I14_merkle_tree.swift */,
+				B23935672C103D240072CC1D /* I15_difficult_adjustment.swift */,
+				B23935692C103D310072CC1D /* I16_scalability.swift */,
+				B239356B2C103D3C0072CC1D /* I17_smart_contract.swift */,
+				B239356D2C103D480072CC1D /* I18_forks.swift */,
+				B239356F2C103D530072CC1D /* I19_nodes.swift */,
+				B23935712C103D5C0072CC1D /* I20_regulation.swift */,
+			);
+			path = Intermediate;
+			sourceTree = "<group>";
+		};
+		B23935342C0DDFCA0072CC1D /* Advance */ = {
+			isa = PBXGroup;
+			children = (
+				B239352E2C0DDF5D0072CC1D /* MainAdvance.swift */,
+				B23935732C103E000072CC1D /* A1_monetory.swift */,
+				B23935752C103E0C0072CC1D /* A2_store.swift */,
+				B23935772C103E170072CC1D /* A3_medium.swift */,
+				B23935792C103E220072CC1D /* A4_network_effect.swift */,
+				B239357B2C103E300072CC1D /* A5_austrain.swift */,
+				B239357D2C103E420072CC1D /* A6_deflationary.swift */,
+				B239357F2C103E4D0072CC1D /* A7_bubbles.swift */,
+				B23935812C103E580072CC1D /* A8_minning.swift */,
+				B23935832C103E620072CC1D /* A9_final.swift */,
+				B23935852C103E700072CC1D /* A10_the_future.swift */,
+				B23935872C103F910072CC1D /* A11_privacy.swift */,
+				B23935892C103F9D0072CC1D /* A12_quantum.swift */,
+				B239358B2C103FAA0072CC1D /* A13_security.swift */,
+				B239358D2C103FB20072CC1D /* A14_tax.swift */,
+				B239358F2C103FBD0072CC1D /* A15_minning.swift */,
+				B23935912C103FC90072CC1D /* A16_cloud.swift */,
+				B23935932C103FD80072CC1D /* A17-derivatives.swift */,
+				B23935952C103FEE0072CC1D /* A18_non_fungable.swift */,
+				B23935972C103FFD0072CC1D /* A19_decentralized.swift */,
+				B23935992C10400E0072CC1D /* A20_the_philosophy.swift */,
+				B239359B2C10401B0072CC1D /* A21_famous.swift */,
+				B239359D2C1040250072CC1D /* A22_real_world.swift */,
+				B239359F2C10402E0072CC1D /* A23_env.swift */,
+				B23935A12C1040410072CC1D /* A24_the_futu.swift */,
+				B23935A32C10404E0072CC1D /* A25_ethical.swift */,
+			);
+			path = Advance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +329,9 @@
 			dependencies = (
 			);
 			name = Bitcoin;
+			packageProductDependencies = (
+				B23935242C0DDF290072CC1D /* Lottie */,
+			);
 			productName = Bitcoin;
 			productReference = B23935122C0DDF180072CC1D /* Bitcoin.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +360,9 @@
 				Base,
 			);
 			mainGroup = B23935092C0DDF180072CC1D;
+			packageReferences = (
+				B23935232C0DDF290072CC1D /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = B23935132C0DDF180072CC1D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +389,76 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B23935762C103E0C0072CC1D /* A2_store.swift in Sources */,
+				B23935942C103FD80072CC1D /* A17-derivatives.swift in Sources */,
+				B2DD15AF2C142E1300AF3D3B /* ItemContainer.swift in Sources */,
+				B23935842C103E620072CC1D /* A9_final.swift in Sources */,
+				B239358A2C103F9D0072CC1D /* A12_quantum.swift in Sources */,
+				B239359A2C10400E0072CC1D /* A20_the_philosophy.swift in Sources */,
+				B239353E2C0E35E70072CC1D /* B5_what_is_blockchain.swift in Sources */,
+				B23935742C103E000072CC1D /* A1_monetory.swift in Sources */,
+				B23935782C103E170072CC1D /* A3_medium.swift in Sources */,
+				B23935292C0DDF440072CC1D /* BannerAds.swift in Sources */,
+				B23935962C103FEE0072CC1D /* A18_non_fungable.swift in Sources */,
+				B239352B2C0DDF4C0072CC1D /* MainBasic.swift in Sources */,
+				B23935722C103D5C0072CC1D /* I20_regulation.swift in Sources */,
+				B23935422C0E366B0072CC1D /* B7_bitcoin_sell.swift in Sources */,
+				B239358E2C103FB20072CC1D /* A14_tax.swift in Sources */,
+				B23935402C0E363F0072CC1D /* B6_bitcoin_minning.swift in Sources */,
+				B23935562C103C460072CC1D /* I6_wallets.swift in Sources */,
+				B23935862C103E700072CC1D /* A10_the_future.swift in Sources */,
+				B23935922C103FC90072CC1D /* A16_cloud.swift in Sources */,
+				B239354E2C103C150072CC1D /* I2_the_problem_bitcoin.swift in Sources */,
+				B239355E2C103C7A0072CC1D /* I10_altcoin.swift in Sources */,
+				B2DD15AB2C142DDF00AF3D3B /* Item.swift in Sources */,
+				B23935A02C10402E0072CC1D /* A23_env.swift in Sources */,
+				B239357C2C103E300072CC1D /* A5_austrain.swift in Sources */,
+				B239356E2C103D480072CC1D /* I18_forks.swift in Sources */,
+				B239359E2C1040250072CC1D /* A22_real_world.swift in Sources */,
+				B239356C2C103D3C0072CC1D /* I17_smart_contract.swift in Sources */,
+				B23935822C103E580072CC1D /* A8_minning.swift in Sources */,
+				B23935522C103C300072CC1D /* I4_blockchain.swift in Sources */,
+				B23935602C103CE60072CC1D /* I11_archtechture.swift in Sources */,
+				B239357A2C103E220072CC1D /* A4_network_effect.swift in Sources */,
 				B23935182C0DDF180072CC1D /* ContentView.swift in Sources */,
+				B23935902C103FBD0072CC1D /* A15_minning.swift in Sources */,
+				B23935582C103C530072CC1D /* I7_transaction.swift in Sources */,
+				B23935662C103D120072CC1D /* I14_merkle_tree.swift in Sources */,
+				B2DD15B52C14687200AF3D3B /* Text3.swift in Sources */,
+				B239359C2C10401B0072CC1D /* A21_famous.swift in Sources */,
+				B23935482C0E36B10072CC1D /* B10_bitcoin_future.swift in Sources */,
+				B239352D2C0DDF530072CC1D /* MainIntermediate.swift in Sources */,
+				B239353A2C0E35C50072CC1D /* B3_who_is_santoshi_nakamoto.swift in Sources */,
+				B23935382C0E35B60072CC1D /* b2_history.swift in Sources */,
+				B23935442C0E36860072CC1D /* B8_adv_dis.swift in Sources */,
+				B2DD15B32C14686A00AF3D3B /* Text2.swift in Sources */,
+				B239358C2C103FAA0072CC1D /* A13_security.swift in Sources */,
+				B23935502C103C220072CC1D /* I3_decentralized.swift in Sources */,
+				B239355C2C103C6E0072CC1D /* I9_security.swift in Sources */,
+				B2D162722C186B63007B0F31 /* Demo.swift in Sources */,
+				B239352F2C0DDF5D0072CC1D /* MainAdvance.swift in Sources */,
+				B23935A22C1040410072CC1D /* A24_the_futu.swift in Sources */,
+				B239354A2C0E36B90072CC1D /* B11_fact.swift in Sources */,
+				B23935682C103D240072CC1D /* I15_difficult_adjustment.swift in Sources */,
+				B23935642C103D030072CC1D /* I13_hashing_function.swift in Sources */,
+				B2DD15A52C142DA900AF3D3B /* ItemRow.swift in Sources */,
+				B239354C2C103C040072CC1D /* I1_what_is_bitcoin.swift in Sources */,
+				B23935542C103C3C0072CC1D /* I5_proof_of_work.swift in Sources */,
+				B23935802C103E4D0072CC1D /* A7_bubbles.swift in Sources */,
+				B2DD15B12C14686400AF3D3B /* Text1.swift in Sources */,
 				B23935162C0DDF180072CC1D /* BitcoinApp.swift in Sources */,
+				B23935702C103D530072CC1D /* I19_nodes.swift in Sources */,
+				B239357E2C103E420072CC1D /* A6_deflationary.swift in Sources */,
+				B23935882C103F910072CC1D /* A11_privacy.swift in Sources */,
+				B23935462C0E369A0072CC1D /* B9_bitcoin_application.swift in Sources */,
+				B23935982C103FFD0072CC1D /* A19_decentralized.swift in Sources */,
+				B239353C2C0E35DA0072CC1D /* B4_what_is_crypto.swift in Sources */,
+				B23935272C0DDF380072CC1D /* LottieView.swift in Sources */,
+				B23935362C0E35AE0072CC1D /* B1_intro.swift in Sources */,
+				B23935622C103CF30072CC1D /* i12_cryptography.swift in Sources */,
+				B23935A42C10404E0072CC1D /* A25_ethical.swift in Sources */,
+				B239356A2C103D310072CC1D /* I16_scalability.swift in Sources */,
+				B239355A2C103C5F0072CC1D /* I8_supply.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +664,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B23935232C0DDF290072CC1D /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B23935242C0DDF290072CC1D /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B23935232C0DDF290072CC1D /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B239350A2C0DDF180072CC1D /* Project object */;
 }
