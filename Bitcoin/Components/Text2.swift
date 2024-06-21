@@ -20,18 +20,31 @@ struct Text2: View {
             
                 Text(title1)
                     .font(.system(size: 18, weight: .medium))
-                    .fontWeight(.regular)
+                    .fontWeight(.semibold)
                     .fontDesign(.rounded)
                     .lineSpacing(5)
+            
+            Divider()
                 
                 Text(title2)
                     .font(.system(size: 18, weight: .medium))
                     .fontWeight(.regular)
                     .fontDesign(.rounded)
                     .lineSpacing(5)
+            
+            
+            
+//            Divider()
 
-                Divider()
         }
+        .padding()
+        .background(Color.white)
+        .cornerRadius(10)
+        .shadow(radius: 0.5)
+        .overlay(
+            RoundedRectangle(cornerRadius: 10)
+                .stroke(Color.black, lineWidth: 0)
+        )
     }
 }
 

@@ -77,10 +77,58 @@ struct A3_medium: View {
       """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        
+                        Head(title: r1)
+
+                               Stext(title: r2)
+
+                               Text2(title1: r3, title2: r4)
+
+                               Text2(title1: r5, title2: r6)
+                               
+
+                               Text2(title1: r7, title2: r8)
+                               
+
+                               Text2(title1: r9, title2: r10)
+                               
+
+                               Text2(title1: r11, title2: r12)
+                               
+
+                               Text2(title1: r13, title2: r14)
+                               
+
+                               Text2(title1: r15, title2: r16)
+                               
+
+                               Text2(title1: r17, title2: r18)
+
+                               Stext(title: r19)
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
-
 #Preview {
     A3_medium()
 }

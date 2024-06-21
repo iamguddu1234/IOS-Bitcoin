@@ -64,10 +64,49 @@ struct I2_the_problem_bitcoin: View {
       """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                       
+                        Head(title: b1)
+
+                                Stext(title: b2)
+
+                                Text2(title1: b3, title2: b4)
+
+                                 Text2(title1: b5, title2: b6)
+
+                                  Text2(title1: b7, title2: b8)
+
+                                   Text2(title1: b9, title2: b10)
+
+                                    Text2(title1: b11, title2: b12)
+
+                                     Text2(title1: b13, title2: b14)
+
+                                     Stext(title: b15)
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
-
 #Preview {
     I2_the_problem_bitcoin()
 }

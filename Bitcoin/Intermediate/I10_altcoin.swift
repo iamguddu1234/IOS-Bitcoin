@@ -67,7 +67,46 @@ struct I10_altcoin: View {
         """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        
+                        Head(title: ha20)
+
+                              Text2(title1: ha21, title2: ha22)
+
+                              Text2(title1: ha23, title2: ha24)
+
+                              Text2(title1: ha25, title2: ha26)
+
+                              Text2(title1: ha27, title2: ha28)
+
+                              Text2(title1: ha29, title2: ha30)
+
+                              Text2(title1: ha31, title2: ha32)
+
+                              Text2(title1: ha33, title2: ha34)
+
+                              Stext(title: ha35)
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

@@ -99,10 +99,59 @@ struct A18_non_fungable: View {
       In summary, Non-Fungible Tokens (NFTs) are unique digital assets representing ownership or proof of authenticity of specific items or content. While NFTs operate on blockchain technology similar to Bitcoin, they serve different purposes and have distinct properties, use cases, and market dynamics. NFTs have emerged as a prominent trend in the cryptocurrency space, driving innovation, creativity, and value creation across various industries and applications.
       """
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                 
+                        Head(title: ae1)
+
+                        Stext(title: ae2)
+
+                        Text2(title1: ae3, title2: ae4)
+
+                        Head(title: ae5)
+
+                         Text2(title1: ae6, title2: ae7)
+
+                          Text2(title1: ae8, title2: ae9)
+
+                           Text2(title1: ae10, title2: ae11)
+
+                           Head(title: ae12)
+
+                            Text2(title1: ae13, title2: ae14)
+
+                             Text2(title1: ae15, title2: ae16)
+
+                              Text2(title1: ae17, title2: ae18)
+
+                              Text4(title1: ae19, title2: ae20, title3: ae21, title4: ae22)
+
+                               Text4(title1: ae23, title2: ae24, title3: ae25, title4: ae26)
+
+                               Stext(title: ae27)
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
-
 #Preview {
     A18_non_fungable()
 }

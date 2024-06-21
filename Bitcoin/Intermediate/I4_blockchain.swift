@@ -66,10 +66,50 @@ struct I4_blockchain: View {
 
 
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        
+                        
+                        Head(title: d1)
+
+                        Stext(title: d2)
+
+                        Text2(title1: d3, title2: d4)
+
+                         Text2(title1: d5, title2: d6)
+
+                          Text2(title1: d7, title2: d8)
+
+                           Text2(title1: d9, title2: d10)
+
+                            Text2(title1: d11, title2: d12)
+
+                             Text2(title1: d13, title2: d13a)
+
+                             Stext(title: d14)
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
-
 #Preview {
     I4_blockchain()
 }

@@ -107,10 +107,68 @@ struct A9_final: View {
        """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        Head(title: wa1)
+
+                                Stext(title: wa2)
+
+                                Text2(title1: wa3, title2: wa4)
+
+                                Head(title: wa5)
+
+                                Text2(title1: wa6, title2: wa7)
+
+                                Text2(title1: wa8, title2: wa9)
+
+                                Text2(title1: wa10, title2: wa11)
+
+                                Text2(title1: wa12, title2: wa13)
+
+                                Text2(title1: wa14, title2: wa15)
+
+                                Head(title: wa16)
+
+                                Text2(title1: wa17, title2: wa18)
+
+                                Text2(title1: wa19, title2: wa20)
+
+                                Text2(title1: wa21, title2: wa22)
+
+                                Text2(title1: wa23, title2: wa24)
+
+                            
+
+                                Head(title: wa25)
+
+                                Text2(title1: wa26, title2: wa27)
+
+                                Text2(title1: wa28, title2: wa29)
+
+                                Stext(title: wa30)
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
-
 #Preview {
     A9_final()
 }

@@ -78,7 +78,50 @@ struct I17_smart_contract: View {
         """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        Head(title: n1)
+
+                                Stext(title: n2)
+
+                                Text2(title1: n3, title2: n4)
+
+                                 Text2(title1: n5, title2: n6)
+
+                                  Text2(title1: n7, title2: n8)
+
+                                   Text2(title1: n9, title2: n10)
+
+                                    Text2(title1: n11, title2: n12)
+
+                                     Text2(title1: n13, title2: n14)
+
+                                      Text2(title1: n15, title2: n16)
+
+                                       Text2(title1: n17, title2: n18)
+
+                                       Stext(title: n19)
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

@@ -89,7 +89,58 @@ struct A8_minning: View {
       """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        Head(title: w1)
+
+                                  Stext(title: w2)
+
+                                  Head(title: w3)
+
+                                  Text2(title1: w4, title2: w5)
+
+                                  Text2(title1: w6, title2: w7)
+
+                                  Text2(title1: w8, title2: w9)
+
+                                  Text2(title1: w10, title2: w11)
+
+                                  Head(title: w12)
+
+                                  Text2(title1: w13, title2: w14)
+
+                                  Text2(title1: w15, title2: w16)
+
+                                  Text2(title1: w17, title2: w18)
+
+                                  Head(title: w19)
+
+                                  Text2(title1: w20, title2: w21)
+
+                                  Text2(title1: w22, title2: w23)
+
+                                  Stext(title: w24)
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

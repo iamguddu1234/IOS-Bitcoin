@@ -88,10 +88,51 @@ struct A17_derivatives: View {
       """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        
+                        Head(title: ad1)
+
+                                Stext(title: ad2)
+
+                                Text2(title1: ad3, title2: ad4)
+
+                                Text3(title1: ad5, title2: ad6, title3: ad7)
+
+                                  Text3(title1: ad8, title2: ad9, title3: ad10)
+
+                                    Text3(title1: ad11, title2: ad12, title3: ad13)
+
+                                      Text3(title1: ad14, title2: ad15, title3: ad16)
+
+                                        Text3(title1: ad17, title2: ad18, title3: ad19)
+
+                                          Text3(title1: ad20, title2: ad21, title3: ad22)
+
+                                          Stext(title: ad23)
+
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
-
 #Preview {
     A17_derivatives()
 }

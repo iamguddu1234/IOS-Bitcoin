@@ -118,10 +118,62 @@ struct A15_minning: View {
      """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        
+                  
+                        Head(title: ab1)
+
+                        Stext(title: ab2)
+
+                        Text2(title1: ab3, title2: ab4)
+
+                         Text2(title1: ab5, title2: ab7)
+
+                         Text3(title1: ab8, title2: ab9, title3: ab10)
+
+                          Text2(title1: ab11, title2: ab12)
+
+                           Text2(title1: ab13, title2: ab14)
+
+                            Text2(title1: ab15, title2: ab16)
+
+                             Text2(title1: ab17, title2: ab18)
+
+                             Head(title: ab19)
+
+                             Head(title: ab26)
+
+                              Text2(title1: ab27, title2: ab28)
+
+                               Text2(title1: ab29, title2: ab30)
+
+                                Text2(title1: ab31, title2: ab32)
+
+                                Stext(title: ab33)
+
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
-
 #Preview {
     A15_minning()
 }

@@ -92,10 +92,57 @@ struct A22_real_world: View {
      """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        Head(title: ai1)
+
+                        Stext(title: ai2)
+
+                        Text2(title1: ai3, title2: ai4)
+
+                         Text2(title1: ai5, title2: ai6)
+
+                          Text2(title1: ai7, title2: ai8)
+
+                           Text2(title1: ai9, title2: ai10)
+
+                            Text2(title1: ai11, title2: ai12)
+
+                             Text2(title1: ai13, title2: ai14)
+
+                              Text2(title1: ai15, title2: ai16)
+
+                               Text2(title1: ai17, title2: ai18)
+
+                                Text2(title1: ai19, title2: ai20)
+
+                                 Text2(title1: ai21, title2: ai22)
+
+                                 Stext(title: ai23)
+
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
-
 #Preview {
     A22_real_world()
 }

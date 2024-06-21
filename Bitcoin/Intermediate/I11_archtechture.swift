@@ -64,7 +64,46 @@ struct I11_archtechture: View {
      """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        Head(title: i1)
+
+                               Stext(title: i2)
+
+                               Text2(title1: i3, title2: i4)
+
+                               Text2(title1: i5, title2: i6)
+
+                               Text2(title1: i7, title2: i8)
+
+                               Text2(title1: i9, title2: i10)
+
+                               Text2(title1: i11, title2: i12)
+
+                               Text2(title1: i13, title2: i14)
+
+                               Stext(title: i15)
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

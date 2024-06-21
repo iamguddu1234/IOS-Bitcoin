@@ -108,10 +108,54 @@ struct A6_deflationary: View {
       """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        
+                        Head(title: u1)
+
+                               Stext(title: u2)
+
+                               Head(title: u3)
+
+                               Text2(title1: u4, title2: u5)
+
+                                Text2(title1: u7, title2: u8)
+
+                                 Text2(title1: u9, title2: u10)
+
+                                  Text2(title1: u11, title2: u12)
+
+                                   Text2(title1: u13, title2: u14)
+
+                                   Head(title: u15)
+
+                                    Text2(title1: u16, title2: u17)
+
+                                    Head(title: u18)
+
+                                    Stext(title: u27)
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
-
 #Preview {
     A6_deflationary()
 }

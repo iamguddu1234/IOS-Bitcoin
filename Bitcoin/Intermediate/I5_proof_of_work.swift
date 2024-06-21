@@ -63,10 +63,48 @@ struct I5_proof_of_work: View {
       """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        Head(title: e1)
+
+                               Stext(title: e2)
+
+                               Text2(title1: e3, title2: e4)
+
+                               Text2(title1: e5, title2: e6)
+
+                               Text2(title1: e7, title2: e8)
+
+                               Text2(title1: e9, title2: e10)
+
+                               Text2(title1: e11, title2: e12)
+
+                               Text2(title1: e13, title2: e14)
+
+                               Stext(title: e15)
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
-
 #Preview {
     I5_proof_of_work()
 }

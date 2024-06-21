@@ -81,10 +81,59 @@ struct I18_forks: View {
      In summary, forks are mechanisms for implementing changes or upgrades to the Bitcoin protocol. Hard forks result in the creation of two separate chains, while soft forks lead to temporary centralization before the network converges on the new rules. Both types of forks have implications for network governance, consensus, and community cohesion, and their implementation requires careful consideration and coordination within the blockchain ecosystem.
      """
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        Head(title: o1)
+
+                                Stext(title: o2)
+
+                                Head(title: o3)
+
+                                Text2(title1: o4, title2: o5)
+
+                                Text2(title1: o6, title2: o7)
+
+                                Text2(title1: o8, title2: o9)
+
+                                Head(title: o10)
+
+                                Text2(title1: o11, title2: o12)
+
+                                Text2(title1: o13, title2: o14)
+
+                                Text2(title1: o15, title2: o16)
+
+                                Head(title: o17)
+
+                                Text2(title1: o18, title2: o19)
+
+                                Text2(title1: o20, title2: o21)
+
+                                Stext(title: o22)
+
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
-
 #Preview {
     I18_forks()
 }

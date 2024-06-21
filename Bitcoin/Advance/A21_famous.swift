@@ -92,10 +92,64 @@ struct A21_famous: View {
       """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        Head(title: ah1)
+
+                                Stext(title: ah2)
+
+                                Text2(title1: ah3, title2: ah4)
+
+                                 Text2(title1: ah5, title2: ah6)
+                               
+
+                                Text2(title1: ah7, title2: ah8)
+                               
+
+                                Text2(title1: ah9, title2: ah10)
+                               
+
+                                Text2(title1: ah11, title2: ah12)
+                               
+
+                                Text2(title1: ah13, title2: ah14)
+                               
+
+                                Text2(title1: ah15, title2: ah16)
+                               
+
+                                Text2(title1: ah17, title2: ah18)
+                               
+
+                                Text2(title1: ah19, title2: ah20)
+                               
+
+                                Text2(title1: ah21, title2: ah22)
+
+                                Stext(title: ah23)
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
-
 #Preview {
     A21_famous()
 }

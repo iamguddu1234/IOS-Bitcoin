@@ -75,7 +75,51 @@ struct I15_difficult_adjustment: View {
       """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                     
+                        Head(title: la1)
+
+                        Stext(title: la2)
+
+                        Text2(title1: la3, title2: la4)
+
+                        Text2(title1: la5, title2: la6)
+
+                        Text2(title1: la7, title2: la8)
+
+                        Head(title: la9)
+
+                         Text2(title1: la10, title2: la11)
+
+                          Text2(title1: la12, title2: la13)
+
+                           Text2(title1: la14, title2: la15)
+
+                            Text2(title1: la16, title2: la17)
+
+                            Stext(title: la18)
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

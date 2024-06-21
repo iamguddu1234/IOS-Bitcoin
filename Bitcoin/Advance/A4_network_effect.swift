@@ -9,7 +9,7 @@ import SwiftUI
 
 struct A4_network_effect: View {
     
-    let s1 = """
+    let sa1 = """
       24. Network Effects (How Bitcoin Gains Value as More People Use It)
       """
 
@@ -72,10 +72,46 @@ struct A4_network_effect: View {
       """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        
+                        Head(title: sa1)
+
+                                Stext(title: sa2)
+
+                                Text3(title1: sa3, title2: sa4, title3: sa5)
+
+                                 Text3(title1: sa6, title2: sa7, title3: sa8)
+
+                                  Text3(title1: sa9, title2: sa10, title3: sa12)
+
+                                   Text3(title1: sa13, title2: sa14, title3: sa15)
+
+                                    Text3(title1: sa16, title2: sa17, title3: sa18)
+
+                                    Stext(title: sa19)
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
-
 #Preview {
     A4_network_effect()
 }

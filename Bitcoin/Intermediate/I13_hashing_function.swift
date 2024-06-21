@@ -57,10 +57,46 @@ struct I13_hashing_function: View {
       """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        Head(title: k1)
+
+                                Stext(title: k2)
+
+                                Text2(title1: k3, title2: k4)
+
+                                Text2(title1: k5, title2: k6)
+
+                                Text2(title1: k7, title2: k8)
+
+                                Text2(title1: k9, title2: k10)
+
+                                Text2(title1: k11, title2: k12)
+
+                                Stext(title: k13)
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
-
 #Preview {
     I13_hashing_function()
 }

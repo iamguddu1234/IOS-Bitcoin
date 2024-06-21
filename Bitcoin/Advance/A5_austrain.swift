@@ -72,7 +72,44 @@ struct A5_austrain: View {
      """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        Head(title: t1)
+
+                                Stext(title: t2)
+
+                                Text3(title1: t3, title2: t4, title3: t5)
+
+                                Text3(title1: t6, title2: t7, title3: t8)
+
+                                Text3(title1: t9, title2: t10, title3: t11)
+
+                                Text3(title1: t12, title2: t13, title3: t14)
+
+                                Text3(title1: t15, title2: t16, title3: t17)
+
+                                Stext(title: t18)
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

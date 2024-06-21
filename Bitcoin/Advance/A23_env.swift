@@ -78,7 +78,51 @@ struct A23_env: View {
         """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                     
+                        Head(title: aii1)
+
+                               Stext(title: aii2)
+
+                               Text2(title1: aii3, title2: aii4)
+
+                                Text2(title1: aii5, title2: aii6)
+
+                                 Text2(title1: aii7, title2: aii8)
+
+                                  Text2(title1: aii9, title2: aii10)
+
+                                   Text2(title1: aii11, title2: aii12)
+
+                                    Text2(title1: aii13, title2: aii14)
+
+                                     Text2(title1: aii15, title2: aii16)
+
+                                      Text2(title1: aii17, title2: aii18)
+
+                                      Stext(title: aii19)
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

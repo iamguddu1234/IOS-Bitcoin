@@ -82,7 +82,46 @@ struct A20_the_philosophy: View {
       """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        Head(title: ag1)
+
+                               Stext(title: ag2)
+
+                               Text3(title1: ag3, title2: ag4, title3: ag5)
+
+                               Text3(title1: ag6, title2: ag7, title3: ag8)
+
+                               Text3(title1: ag9, title2: ag10, title3: ag11)
+
+                               Text3(title1: ag12, title2: ag13, title3: ag14)
+
+                               Text3(title1: ag15, title2: ag16, title3: ag17)
+
+                               Text3(title1: ag18, title2: ag19, title3: ag20)
+
+                               Stext(title: ag21)
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

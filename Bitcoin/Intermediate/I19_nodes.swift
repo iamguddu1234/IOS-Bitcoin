@@ -97,10 +97,58 @@ struct I19_nodes: View {
        """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                     
+                        Head(title: oa1)
+
+                        Stext(title: oa2)
+
+                        Head(title: oa3)
+
+                        Text2(title1: oa4, title2: oa4a)
+
+                        Text4(title1: oa5, title2: oa6, title3: oa7, title4: oa8)
+
+                        Text3(title1: oa9, title2: oa10, title3: oa11)
+
+                        Text2(title1: oa12, title2: oa13)
+
+                        Text3(title1: oa14, title2: oa15, title3: oa16)
+
+                        Text2(title1: oa17, title2: oa18)
+
+                        Head(title: oa19)
+
+                        Text2(title1: oa20, title2: oa21)
+
+                        Text2(title1: oa22, title2: oa23)
+
+                        Stext(title: oa24)
+
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
-
 #Preview {
     I19_nodes()
 }

@@ -78,10 +78,61 @@ struct A10_the_future: View {
     """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        Head(title: x1)
+
+                               Stext(title: x2)
+
+                               Text2(title1: x3, title2: x4)
+
+                                Text2(title1: x5, title2: x6)
+                               
+
+                                Text2(title1: x7, title2: x8)
+                               
+
+                                Text2(title1: x9, title2: x10)
+                               
+
+                                Text2(title1: x11, title2: x12)
+                               
+
+                                Text2(title1: x13, title2: x14)
+                               
+
+                                Text2(title1: x15, title2: x16)
+                               
+
+                                Text2(title1: x17, title2: x18)
+
+                                Stext(title: x19)
+                               
+
+
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
-
 #Preview {
     A10_the_future()
 }

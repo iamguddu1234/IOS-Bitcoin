@@ -56,10 +56,46 @@ struct I8_supply: View {
       """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        
+                        Head(title: h1)
+
+                               Stext(title: h2)
+
+                               Text2(title1: h3, title2: h4)
+
+                               Text2(title1: h5, title2: h6)
+
+                               Text2(title1: h7, title2: h8)
+
+                               Text2(title1: h9, title2: h10)
+
+                               Text2(title1: h11, title2: h12)
+
+                               Stext(title: h13)
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
-
 #Preview {
     I8_supply()
 }

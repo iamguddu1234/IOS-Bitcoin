@@ -111,7 +111,63 @@ struct I16_scalability: View {
     """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        Head(title: m1)
+
+                               Stext(title: m2)
+
+                               Head(title: m3)
+
+                               Text2(title1: m4, title2: m5)
+
+                                Text2(title1: m6, title2: m7)
+
+                                 Text2(title1: m8, title2: m9)
+
+                                 Head(title: m10)
+
+                                 Text2(title1: m11, title2: m12)
+
+                                 Text2(title1: m13, title2: m14)
+
+                                 Text2(title1: m15, title2: m16)
+
+                                 Text2(title1: m17, title2: m18)
+
+                                 Text2(title1: m19, title2: m20)
+
+                                 Head(title: m21)
+
+                                 Text2(title1: m22, title2: m23)
+
+                                 Text2(title1: m24, title2: m25)
+
+                                 Text2(title1: m26, title2: m27)
+
+                                 Stext(title: m28)
+
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

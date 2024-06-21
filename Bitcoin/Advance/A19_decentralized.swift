@@ -109,20 +109,60 @@ struct A19_decentralized: View {
       """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-        
-//        //Heading Text
-//        Head(title: a1)
-//        
-//        //simple Text
-//        Stext(tile: a1)
-//        
-//        //for text Two on is title other is detail
-//        Text2(title1: a3, title2: a4)
-//        
-//        //for first text title and other two is smile
-//        Text3(title1: a5, title2: a6, title3: a7)
-        
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                    
+                        Head(title: af1)
+
+                                        Stext(title: af2)
+
+                                        Text2(title1: af3, title2: af4)
+
+                                        Text2(title1: af6, title2: af7)
+
+                                        Text2(title1: af8, title2: af9)
+
+                                        Text2(title1: af10, title2: af11)
+
+                                        Text2(title1: af12, title2: af13)
+
+                                        Head(title: af5)
+
+                                        Text2(title1: af15, title2: af16)
+
+                                        Text2(title1: af17, title2: af18)
+
+                                        Text2(title1: af19, title2: af20)
+
+                                        Text2(title1: af21, title2: af21a)
+
+                                        Text3(title1: af22, title2: af23, title3: af24)
+
+                                          Text4(title1: af25, title2: af26, title3: af27, title4: af28)
+
+                                          Stext(title: af29)
+
+                        
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

@@ -72,10 +72,46 @@ struct A14_tax: View {
       """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        Head(title: aa1)
+
+                                  Stext(title: aa2)
+
+                                  Text2(title1: aa3, title2: aa4)
+
+                                  Text4(title1: aa5, title2: aa6, title3: aa7, title4: aa8)
+
+                                   Text3(title1: aa9, title2: aa10, title3: aa11)
+
+                                    Text3(title1: aa12, title2: aa13, title3: aa14)
+
+                                     Text3(title1: aa15, title2: aa16, title3: aa17)
+
+                                     Stext(title: aa18)
+                        
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
-
 #Preview {
     A14_tax()
 }

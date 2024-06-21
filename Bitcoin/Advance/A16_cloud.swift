@@ -94,7 +94,49 @@ struct A16_cloud: View {
         """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                       
+                        
+                        Head(title: ac1)
+
+                        Stext(title: ac2)
+
+                        Text5(title1: ac3, title2: ac4, title3: ac5, title4: ac6, title5: ac7)
+
+                        Head(title: ac8)
+
+                        Text2(title1: ac9, title2: ac10)
+
+                         Text2(title1: ac11, title2: ac12)
+
+                         Text2(title1: ac13, title2: ac14)
+
+                         Head(title: ac15)
+
+                         Stext(title: ac26)
+
+                        
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

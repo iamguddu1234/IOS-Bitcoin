@@ -101,10 +101,68 @@ struct A7_bubbles: View {
        """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        Head(title: v1)
+
+                               Stext(title: v2)
+
+                               Head(title: v3)
+
+                           
+
+                               Text2(title1: v4, title2: v5)
+
+                               Text2(title1: v6, title2: v7)
+
+                               Text2(title1: v8, title2: v9)
+
+                               Text2(title1: v10, title2: v11)
+
+                               Head(title: v12)
+
+                               Text2(title1: v13, title2: v14)
+
+                               Text2(title1: v15, title2: v16)
+
+                               Text2(title1: v17, title2: v18)
+
+                               Text2(title1: v19, title2: v20)
+
+                               Head(title: v21)
+
+                               Text2(title1: v22, title2: v23)
+
+                               Text2(title1: v24, title2: v25)
+
+                               Text2(title1: v26, title2: v27)
+
+                               Stext(title: v28)
+
+
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
-
 #Preview {
     A7_bubbles()
 }

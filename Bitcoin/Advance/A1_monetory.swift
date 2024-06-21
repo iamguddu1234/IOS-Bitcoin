@@ -69,7 +69,44 @@ struct A1_monetory: View {
      """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        
+                        Head(title: pa1)
+
+                                Stext(title: pa2)
+
+                                Text2(title1: pa3, title2: pa4)
+
+                                Text3(title1: pa5, title2: pa6, title3: pa7)
+
+                                 Text3(title1: pa8, title2: pa9, title3: pa10)
+                                
+                                 Text3(title1: pa11, title2: pa12, title3: pa13)
+                                
+                                 Text3(title1: pa14, title2: pa15, title3: pa16)
+
+                                 Stext(title: pa17)
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

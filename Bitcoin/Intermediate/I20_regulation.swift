@@ -100,7 +100,65 @@ struct I20_regulation: View {
       In summary, government involvement in crypto regulation and compliance reflects efforts to address concerns related to consumer protection, market integrity, financial stability, and compliance with AML/KYC requirements. The regulatory landscape is dynamic and varies by jurisdiction, posing challenges and opportunities for cryptocurrency businesses, investors, and users seeking to navigate the evolving regulatory environment.
       """
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        Head(title: p1)
+
+                               Stext(title: p2)
+
+                               Head(title: p3)
+
+                               Text2(title1: p4, title2: p5)
+
+                               Text2(title1: p6, title2: p7)
+
+                               Text2(title1: p8, title2: p9)
+
+                               Head(title: p10)
+
+                               Text2(title1: p11, title2: p12)
+
+                               Text2(title1: p13, title2: p14)
+
+                               Text2(title1: p15, title2: p16)
+
+
+                               Text2(title1: p17, title2: p18)
+
+
+                               Text2(title1: p19, title2: p20)
+
+                               Head(title: p21)
+
+                               Text2(title1: p22, title2: p23)
+
+                               Text2(title1: p24, title2: p25)
+
+                               Text2(title1: p26, title2: p27)
+
+                               Stext(title: p28)
+
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

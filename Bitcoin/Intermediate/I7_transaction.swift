@@ -90,10 +90,60 @@ struct I7_transaction: View {
       """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        
+                        Head(title: g1)
+
+                               Stext(title: g2)
+
+                               Head(title: g3)
+
+                               Text2(title1: g4, title2: g5)
+
+                                Text2(title1: g6, title2: g7)
+
+                                 Text2(title1: g8, title2: g9)
+
+                                 Head(title: g10)
+
+                                  Text2(title1: g11, title2: g12)
+
+                                   Text2(title1: g13, title2: g14)
+
+                                    Text2(title1: g15, title2: g16)
+
+                                    Head(title: g17)
+
+                                    Text2(title1: g18, title2: g19)
+
+                                    Text2(title1: g20, title2: g20a)
+
+                                    Stext(title: g21)
+
+
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
-
 #Preview {
     I7_transaction()
 }

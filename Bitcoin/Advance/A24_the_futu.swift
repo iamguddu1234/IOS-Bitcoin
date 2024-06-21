@@ -92,10 +92,56 @@ struct A24_the_futu: View {
      """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        Head(title: aj1)
+
+                               Stext(title: aj2)
+
+                               Text2(title1: aj3, title2: aj4)
+
+                               Text2(title1: aj5, title2: aj6)
+
+                               Text2(title1: aj7, title2: aj8)
+
+                               Text2(title1: aj9, title2: aj10)
+
+                               Text2(title1: aj11, title2: aj12)
+
+                               Text2(title1: aj13, title2: aj14)
+
+                               Text2(title1: aj15, title2: aj16)
+
+                               Text2(title1: aj17, title2: aj18)
+
+                               Text2(title1: aj19, title2: aj20)
+
+                               Text2(title1: aj21, title2: aj22)
+
+                               Stext(title: aj23)
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
-
 #Preview {
     A24_the_futu()
 }

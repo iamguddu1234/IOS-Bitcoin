@@ -102,10 +102,52 @@ struct A13_security: View {
     """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        
+                        Head(title: za1)
+
+                               Stext(title: za2)
+
+                               Text3(title1: za3, title2: za4, title3: za5)
+
+                               Text3(title1: za3, title2: za4, title3: za5)
+
+                               Text3(title1: za3, title2: za4, title3: za5)
+
+                               Text3(title1: za3, title2: za4, title3: za5)
+
+                               Text3(title1: za3, title2: za4, title3: za5)
+
+                               Text3(title1: za3, title2: za4, title3: za5)
+
+                               Text3(title1: za3, title2: za4, title3: za5)
+
+                               Text3(title1: za3, title2: za4, title3: za5)
+
+                               Stext(title: za27)
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
-
 #Preview {
     A13_security()
 }

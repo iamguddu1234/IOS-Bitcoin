@@ -72,7 +72,44 @@ struct A2_store: View {
      """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        Head(title: q1)
+
+                               Stext(title: q2)
+
+                               Text3(title1: q3, title2: q4, title3: q5)
+
+                                Text3(title1: q6, title2: q7, title3: q8)
+
+                                 Text3(title1: q9, title2: q10, title3: q11)
+
+                                  Text3(title1: q12, title2: q13, title3: q14)
+
+                                   Text3(title1: q15, title2: q16, title3: q17)
+
+                                   Stext(title: q18)
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

@@ -71,9 +71,49 @@ struct I3_decentralized: View {
        """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-        
-        Text1(title: c1)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        Head(title: c1)
+
+                               Stext(title: c2)
+
+                               Text2(title1: c3, title2: c4)
+
+                                Text2(title1: c5, title2: c6)
+
+                                 Text2(title1: c7, title2: c8)
+
+                                  Text2(title1: c9, title2: c10)
+
+                                   Text2(title1: c11, title2: c12)
+
+                                    Text2(title1: c13, title2: c14)
+
+                                     Text2(title1: c15, title2: c16)
+
+                                     Stext(title: c17)
+                              
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

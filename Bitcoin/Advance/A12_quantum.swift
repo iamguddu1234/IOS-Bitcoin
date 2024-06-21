@@ -71,7 +71,44 @@ struct A12_quantum: View {
       """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        Head(title: z1)
+
+                               Stext(title: z2)
+
+                               Text3(title1: z3, title2: z4, title3: z5)
+
+                                Text3(title1: z6, title2: z7, title3: z8)
+
+                                 Text3(title1: z9, title2: z10, title3: z11)
+
+                                  Text3(title1: z12, title2: z13, title3: z14)
+
+                                   Text3(title1: z15, title2: z16, title3: z17)
+
+                                   Stext(title: z18)
+                        
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

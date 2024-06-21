@@ -77,10 +77,53 @@ struct I1_what_is_bitcoin: View {
      """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        Head(title: a1)
+
+                                Stext(title: a2)
+
+                                Head(title: a3)
+
+                                Text2(title1: a4, title2: a5)
+
+                                Text2(title1: a6, title2: a7)
+
+                                Text2(title1: a8, title2: a9)
+
+                                Text2(title1: a10, title2: a11)
+
+                                Text2(title1: a12, title2: a13)
+
+                                Text2(title1: a14, title2: a15)
+
+                                Text2(title1: a16, title2: a17)
+
+                                Stext(title: a18)
+
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
-
 #Preview {
     I1_what_is_bitcoin()
 }

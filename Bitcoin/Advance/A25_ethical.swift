@@ -93,12 +93,60 @@ struct A25_ethical: View {
     """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-        
-        
-            }
-}
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        Head(title: ak1)
 
+                                   Stext(title: ak2)
+
+                                   Head(title: ak3)
+
+                                   Text2(title1: ak4, title2: ak5)
+
+                                    Text2(title1: ak6, title2: ak7)
+
+                                     Text2(title1: ak8, title2: ak9)
+
+                                     Head(title: ak10)
+
+                                      Text2(title1: ak11, title2: ak12)
+
+                                       Text2(title1: ak13, title2: ak14)
+
+                                        Text2(title1: ak15, title2: ak16)
+
+                                        Head(title: ak17)
+
+                                        Text2(title1: ak18, title2: ak19)
+
+                                        Text2(title1: ak20, title2: ak21)
+
+                                        Text2(title1: ak22, title2: ak23)
+
+                                        Stext(title: ak24)
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
+    }
+}
 #Preview {
     A25_ethical()
 }

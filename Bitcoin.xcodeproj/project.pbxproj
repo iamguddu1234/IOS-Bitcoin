@@ -74,6 +74,10 @@
 		B23935A22C1040410072CC1D /* A24_the_futu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935A12C1040410072CC1D /* A24_the_futu.swift */; };
 		B23935A42C10404E0072CC1D /* A25_ethical.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935A32C10404E0072CC1D /* A25_ethical.swift */; };
 		B2D162722C186B63007B0F31 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D162712C186B63007B0F31 /* Demo.swift */; };
+		B2D1673C2C244DDB007B0F31 /* Head.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D1673B2C244DDB007B0F31 /* Head.swift */; };
+		B2D1673E2C244DFE007B0F31 /* Stext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D1673D2C244DFE007B0F31 /* Stext.swift */; };
+		B2D167482C255F67007B0F31 /* Text4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D167472C255F67007B0F31 /* Text4.swift */; };
+		B2D1674A2C25612E007B0F31 /* Text5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D167492C25612E007B0F31 /* Text5.swift */; };
 		B2DD15A52C142DA900AF3D3B /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD15A42C142DA900AF3D3B /* ItemRow.swift */; };
 		B2DD15AB2C142DDF00AF3D3B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD15AA2C142DDF00AF3D3B /* Item.swift */; };
 		B2DD15AF2C142E1300AF3D3B /* ItemContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD15AE2C142E1300AF3D3B /* ItemContainer.swift */; };
@@ -150,6 +154,10 @@
 		B23935A12C1040410072CC1D /* A24_the_futu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A24_the_futu.swift; sourceTree = "<group>"; };
 		B23935A32C10404E0072CC1D /* A25_ethical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A25_ethical.swift; sourceTree = "<group>"; };
 		B2D162712C186B63007B0F31 /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
+		B2D1673B2C244DDB007B0F31 /* Head.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Head.swift; sourceTree = "<group>"; };
+		B2D1673D2C244DFE007B0F31 /* Stext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stext.swift; sourceTree = "<group>"; };
+		B2D167472C255F67007B0F31 /* Text4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text4.swift; sourceTree = "<group>"; };
+		B2D167492C25612E007B0F31 /* Text5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text5.swift; sourceTree = "<group>"; };
 		B2DD15A42C142DA900AF3D3B /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		B2DD15AA2C142DDF00AF3D3B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		B2DD15AE2C142E1300AF3D3B /* ItemContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemContainer.swift; sourceTree = "<group>"; };
@@ -198,13 +206,7 @@
 				B23935322C0DDFB60072CC1D /* Basic */,
 				B23935332C0DDFBB0072CC1D /* Intermediate */,
 				B23935342C0DDFCA0072CC1D /* Advance */,
-				B2DD15A42C142DA900AF3D3B /* ItemRow.swift */,
-				B2DD15AE2C142E1300AF3D3B /* ItemContainer.swift */,
-				B2DD15AA2C142DDF00AF3D3B /* Item.swift */,
-				B2DD15B02C14686400AF3D3B /* Text1.swift */,
-				B2DD15B22C14686A00AF3D3B /* Text2.swift */,
-				B2DD15B42C14687200AF3D3B /* Text3.swift */,
-				B2D162712C186B63007B0F31 /* Demo.swift */,
+				B2D1673A2C244DCE007B0F31 /* Components */,
 			);
 			path = Bitcoin;
 			sourceTree = "<group>";
@@ -313,6 +315,24 @@
 			path = Advance;
 			sourceTree = "<group>";
 		};
+		B2D1673A2C244DCE007B0F31 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B2DD15A42C142DA900AF3D3B /* ItemRow.swift */,
+				B2DD15AE2C142E1300AF3D3B /* ItemContainer.swift */,
+				B2DD15AA2C142DDF00AF3D3B /* Item.swift */,
+				B2DD15B02C14686400AF3D3B /* Text1.swift */,
+				B2DD15B22C14686A00AF3D3B /* Text2.swift */,
+				B2DD15B42C14687200AF3D3B /* Text3.swift */,
+				B2D162712C186B63007B0F31 /* Demo.swift */,
+				B2D1673B2C244DDB007B0F31 /* Head.swift */,
+				B2D1673D2C244DFE007B0F31 /* Stext.swift */,
+				B2D167472C255F67007B0F31 /* Text4.swift */,
+				B2D167492C25612E007B0F31 /* Text5.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -419,9 +439,11 @@
 				B23935822C103E580072CC1D /* A8_minning.swift in Sources */,
 				B23935522C103C300072CC1D /* I4_blockchain.swift in Sources */,
 				B23935602C103CE60072CC1D /* I11_archtechture.swift in Sources */,
+				B2D1674A2C25612E007B0F31 /* Text5.swift in Sources */,
 				B239357A2C103E220072CC1D /* A4_network_effect.swift in Sources */,
 				B23935182C0DDF180072CC1D /* ContentView.swift in Sources */,
 				B23935902C103FBD0072CC1D /* A15_minning.swift in Sources */,
+				B2D1673C2C244DDB007B0F31 /* Head.swift in Sources */,
 				B23935582C103C530072CC1D /* I7_transaction.swift in Sources */,
 				B23935662C103D120072CC1D /* I14_merkle_tree.swift in Sources */,
 				B2DD15B52C14687200AF3D3B /* Text3.swift in Sources */,
@@ -450,10 +472,12 @@
 				B23935702C103D530072CC1D /* I19_nodes.swift in Sources */,
 				B239357E2C103E420072CC1D /* A6_deflationary.swift in Sources */,
 				B23935882C103F910072CC1D /* A11_privacy.swift in Sources */,
+				B2D1673E2C244DFE007B0F31 /* Stext.swift in Sources */,
 				B23935462C0E369A0072CC1D /* B9_bitcoin_application.swift in Sources */,
 				B23935982C103FFD0072CC1D /* A19_decentralized.swift in Sources */,
 				B239353C2C0E35DA0072CC1D /* B4_what_is_crypto.swift in Sources */,
 				B23935272C0DDF380072CC1D /* LottieView.swift in Sources */,
+				B2D167482C255F67007B0F31 /* Text4.swift in Sources */,
 				B23935362C0E35AE0072CC1D /* B1_intro.swift in Sources */,
 				B23935622C103CF30072CC1D /* i12_cryptography.swift in Sources */,
 				B23935A42C10404E0072CC1D /* A25_ethical.swift in Sources */,

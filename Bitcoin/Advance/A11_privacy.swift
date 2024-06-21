@@ -72,7 +72,44 @@ struct A11_privacy: View {
     """
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                        
+                        Head(title: y1)
+
+                              Stext(title: y2)
+
+                              Text3(title1: y3, title2: y4, title3: y5)
+
+                              Text3(title1: y6, title2: y7, title3: y8)
+
+                              Text3(title1: y9, title2: y10, title3: y12)
+
+                              Text3(title1: y13, title2: y14, title3: y15)
+
+                              Text3(title1: y16, title2: y17, title3: y18)
+
+                              Stext(title: y19)
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 

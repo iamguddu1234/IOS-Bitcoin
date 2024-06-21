@@ -86,7 +86,55 @@ struct i12_cryptography: View {
 
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            // Background color or other background elements
+            Color("bg").ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 15) {
+                        
+                      
+                        
+                        Head(title: j1)
+
+                        Stext(title: j2)
+
+                        Text2(title1: j3, title2: j4)
+
+                         Text2(title1: j5, title2: j6)
+
+                          Text2(title1: j7, title2: j8)
+
+                           Text2(title1: j9, title2: j10)
+
+                            Text2(title1: j11, title2: j12)
+
+                             Text2(title1: j13, title2: j14)
+
+                              Text2(title1: j15, title2: j16)
+
+                               Text2(title1: j17, title2: j18)
+
+                                Text2(title1: j19, title2: j20)
+
+                                Stext(title: j21)
+
+                        
+                        
+                        
+                        
+                        
+                    }
+                    .padding()
+                }
+                
+                Spacer()
+                
+                // Adjust the height of the banner as needed
+                BannerAds()
+            }
+        }
     }
 }
 
