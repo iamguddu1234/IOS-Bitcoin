@@ -74,7 +74,7 @@ struct I14_merkle_tree: View {
                         
                         
                         
-                        Head(title: l1)
+                    
 
                                Stext(title: l2)
 

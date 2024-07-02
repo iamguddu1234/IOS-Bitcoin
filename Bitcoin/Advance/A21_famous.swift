@@ -101,7 +101,6 @@ struct A21_famous: View {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                        Head(title: ah1)
 
                                 Stext(title: ah2)
 

@@ -91,7 +91,6 @@ struct A20_the_philosophy: View {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                        Head(title: ag1)
 
                                Stext(title: ag2)
 

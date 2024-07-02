@@ -129,8 +129,6 @@ struct A15_minning: View {
                         
                         
                   
-                        Head(title: ab1)
-
                         Stext(title: ab2)
 
                         Text2(title1: ab3, title2: ab4)
@@ -148,6 +146,12 @@ struct A15_minning: View {
                              Text2(title1: ab17, title2: ab18)
 
                              Head(title: ab19)
+                        
+                        Text2(title1: ab20, title2: ab21)
+
+                         Text2(title1: ab22, title2: ab23)
+
+                          Text2(title1: ab24, title2: ab25)
 
                              Head(title: ab26)
 

@@ -47,6 +47,7 @@ struct ContentView: View {
             .edgesIgnoringSafeArea(.bottom)
             
         }
+        .preferredColorScheme(.light)
         
         
     }
@@ -101,6 +102,7 @@ struct TabButton: View {
     var body: some View {
         Button(action: {
             self.selectedIndex = self.index
+            HapticFeedbackManager.shared.triggerHapticFeedback()
         }) {
             Text(title)
                 .frame(maxWidth: .infinity)

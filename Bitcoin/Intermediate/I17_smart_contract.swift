@@ -87,7 +87,7 @@ struct I17_smart_contract: View {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                        Head(title: n1)
+                     
 
                                 Stext(title: n2)
 

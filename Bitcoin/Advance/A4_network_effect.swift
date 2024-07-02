@@ -82,7 +82,7 @@ struct A4_network_effect: View {
                         
                         
                         
-                        Head(title: sa1)
+                    
 
                                 Stext(title: sa2)
 

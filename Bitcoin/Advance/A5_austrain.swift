@@ -81,7 +81,7 @@ struct A5_austrain: View {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                        Head(title: t1)
+                
 
                                 Stext(title: t2)
 

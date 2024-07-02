@@ -80,7 +80,7 @@ struct I3_decentralized: View {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                        Head(title: c1)
+                      
 
                                Stext(title: c2)
 

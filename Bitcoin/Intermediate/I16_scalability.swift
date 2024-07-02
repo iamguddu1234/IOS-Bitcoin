@@ -120,7 +120,7 @@ struct I16_scalability: View {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                        Head(title: m1)
+                     
 
                                Stext(title: m2)
 

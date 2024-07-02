@@ -101,7 +101,6 @@ struct A22_real_world: View {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                        Head(title: ai1)
 
                         Stext(title: ai2)
 

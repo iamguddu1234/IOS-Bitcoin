@@ -96,7 +96,7 @@ struct i12_cryptography: View {
                         
                       
                         
-                        Head(title: j1)
+                  
 
                         Stext(title: j2)
 

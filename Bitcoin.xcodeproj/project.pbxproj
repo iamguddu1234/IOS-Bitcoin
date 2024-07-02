@@ -78,6 +78,8 @@
 		B2D1673E2C244DFE007B0F31 /* Stext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D1673D2C244DFE007B0F31 /* Stext.swift */; };
 		B2D167482C255F67007B0F31 /* Text4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D167472C255F67007B0F31 /* Text4.swift */; };
 		B2D1674A2C25612E007B0F31 /* Text5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D167492C25612E007B0F31 /* Text5.swift */; };
+		B2D167832C30FEEA007B0F31 /* HapticFeedbackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D167822C30FEEA007B0F31 /* HapticFeedbackManager.swift */; };
+		B2D167892C33A0DE007B0F31 /* LinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D167882C33A0DE007B0F31 /* LinkView.swift */; };
 		B2DD15A52C142DA900AF3D3B /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD15A42C142DA900AF3D3B /* ItemRow.swift */; };
 		B2DD15AB2C142DDF00AF3D3B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD15AA2C142DDF00AF3D3B /* Item.swift */; };
 		B2DD15AF2C142E1300AF3D3B /* ItemContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD15AE2C142E1300AF3D3B /* ItemContainer.swift */; };
@@ -158,6 +160,8 @@
 		B2D1673D2C244DFE007B0F31 /* Stext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stext.swift; sourceTree = "<group>"; };
 		B2D167472C255F67007B0F31 /* Text4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text4.swift; sourceTree = "<group>"; };
 		B2D167492C25612E007B0F31 /* Text5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text5.swift; sourceTree = "<group>"; };
+		B2D167822C30FEEA007B0F31 /* HapticFeedbackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedbackManager.swift; sourceTree = "<group>"; };
+		B2D167882C33A0DE007B0F31 /* LinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkView.swift; sourceTree = "<group>"; };
 		B2DD15A42C142DA900AF3D3B /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		B2DD15AA2C142DDF00AF3D3B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		B2DD15AE2C142E1300AF3D3B /* ItemContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemContainer.swift; sourceTree = "<group>"; };
@@ -207,6 +211,7 @@
 				B23935332C0DDFBB0072CC1D /* Intermediate */,
 				B23935342C0DDFCA0072CC1D /* Advance */,
 				B2D1673A2C244DCE007B0F31 /* Components */,
+				B2D167822C30FEEA007B0F31 /* HapticFeedbackManager.swift */,
 			);
 			path = Bitcoin;
 			sourceTree = "<group>";
@@ -329,6 +334,7 @@
 				B2D1673D2C244DFE007B0F31 /* Stext.swift */,
 				B2D167472C255F67007B0F31 /* Text4.swift */,
 				B2D167492C25612E007B0F31 /* Text5.swift */,
+				B2D167882C33A0DE007B0F31 /* LinkView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -431,6 +437,7 @@
 				B239354E2C103C150072CC1D /* I2_the_problem_bitcoin.swift in Sources */,
 				B239355E2C103C7A0072CC1D /* I10_altcoin.swift in Sources */,
 				B2DD15AB2C142DDF00AF3D3B /* Item.swift in Sources */,
+				B2D167892C33A0DE007B0F31 /* LinkView.swift in Sources */,
 				B23935A02C10402E0072CC1D /* A23_env.swift in Sources */,
 				B239357C2C103E300072CC1D /* A5_austrain.swift in Sources */,
 				B239356E2C103D480072CC1D /* I18_forks.swift in Sources */,
@@ -457,6 +464,7 @@
 				B239358C2C103FAA0072CC1D /* A13_security.swift in Sources */,
 				B23935502C103C220072CC1D /* I3_decentralized.swift in Sources */,
 				B239355C2C103C6E0072CC1D /* I9_security.swift in Sources */,
+				B2D167832C30FEEA007B0F31 /* HapticFeedbackManager.swift in Sources */,
 				B2D162722C186B63007B0F31 /* Demo.swift in Sources */,
 				B239352F2C0DDF5D0072CC1D /* MainAdvance.swift in Sources */,
 				B23935A22C1040410072CC1D /* A24_the_futu.swift in Sources */,

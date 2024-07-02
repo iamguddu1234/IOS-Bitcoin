@@ -87,7 +87,6 @@ struct A10_the_future: View {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                        Head(title: x1)
 
                                Stext(title: x2)
 

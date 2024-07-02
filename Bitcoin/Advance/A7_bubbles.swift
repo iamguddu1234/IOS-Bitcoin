@@ -110,7 +110,6 @@ struct A7_bubbles: View {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                        Head(title: v1)
 
                                Stext(title: v2)
 

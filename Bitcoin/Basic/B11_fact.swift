@@ -143,7 +143,7 @@ struct B11_fact: View {
 
                               Stext(title: b_fact2)
 
-                              Stext(title: b_fact23)
+                              Stext(title: b_fact3)
 
 
                               Stext(title: b_fact4)

@@ -100,7 +100,7 @@ struct I7_transaction: View {
                         
                         
                         
-                        Head(title: g1)
+                     
 
                                Stext(title: g2)
 

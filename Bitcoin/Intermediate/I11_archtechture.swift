@@ -73,7 +73,6 @@ struct I11_archtechture: View {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                        Head(title: i1)
 
                                Stext(title: i2)
 

@@ -109,7 +109,7 @@ struct I20_regulation: View {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                        Head(title: p1)
+                      
 
                                Stext(title: p2)
 

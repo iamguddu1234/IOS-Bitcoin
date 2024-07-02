@@ -66,7 +66,7 @@ struct I13_hashing_function: View {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                        Head(title: k1)
+                    
 
                                 Stext(title: k2)
 

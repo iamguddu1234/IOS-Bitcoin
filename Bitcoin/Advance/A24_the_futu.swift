@@ -101,7 +101,6 @@ struct A24_the_futu: View {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                        Head(title: aj1)
 
                                Stext(title: aj2)
 

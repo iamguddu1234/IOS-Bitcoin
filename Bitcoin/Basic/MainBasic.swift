@@ -91,6 +91,7 @@ struct ListViewB1: View {
     func destinationView(for item: String) -> some View {
         switch item {
         case "Introduction":
+            HapticFeedbackManager.shared.triggerHapticFeedback()
             return AnyView(B1_intro().navigationTitle(item))
         case "History":
             return AnyView(b2_history().navigationTitle(item))

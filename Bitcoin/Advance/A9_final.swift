@@ -116,7 +116,6 @@ struct A9_final: View {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                        Head(title: wa1)
 
                                 Stext(title: wa2)
 

@@ -77,7 +77,7 @@ struct I4_blockchain: View {
                         
                         
                         
-                        Head(title: d1)
+                      
 
                         Stext(title: d2)
 

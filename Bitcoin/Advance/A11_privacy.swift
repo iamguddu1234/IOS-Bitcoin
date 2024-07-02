@@ -81,7 +81,6 @@ struct A11_privacy: View {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                        Head(title: y1)
 
                               Stext(title: y2)
 

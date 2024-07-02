@@ -66,7 +66,7 @@ struct I8_supply: View {
                         
                         
                         
-                        Head(title: h1)
+                     
 
                                Stext(title: h2)
 

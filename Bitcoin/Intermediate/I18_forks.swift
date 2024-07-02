@@ -90,7 +90,7 @@ struct I18_forks: View {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                        Head(title: o1)
+                       
 
                                 Stext(title: o2)
 

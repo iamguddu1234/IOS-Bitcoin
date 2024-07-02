@@ -118,7 +118,6 @@ struct A6_deflationary: View {
                         
                         
                         
-                        Head(title: u1)
 
                                Stext(title: u2)
 

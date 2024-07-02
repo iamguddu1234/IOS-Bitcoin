@@ -77,7 +77,7 @@ struct I10_altcoin: View {
                         
                         
                         
-                        Head(title: ha20)
+                
 
                               Text2(title1: ha21, title2: ha22)
 

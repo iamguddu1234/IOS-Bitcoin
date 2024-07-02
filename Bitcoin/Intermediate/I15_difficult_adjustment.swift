@@ -85,7 +85,7 @@ struct I15_difficult_adjustment: View {
                         
                         
                      
-                        Head(title: la1)
+                    
 
                         Stext(title: la2)
 

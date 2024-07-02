@@ -87,7 +87,7 @@ struct I9_security: View {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                        Head(title: ha1)
+                    
 
                                 Text2(title1: ha4, title2: ha5)
 

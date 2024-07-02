@@ -109,7 +109,6 @@ struct A18_non_fungable: View {
                         
                         
                  
-                        Head(title: ae1)
 
                         Stext(title: ae2)
 

@@ -87,7 +87,7 @@ struct A3_medium: View {
                         
                         
                         
-                        Head(title: r1)
+                    
 
                                Stext(title: r2)
 

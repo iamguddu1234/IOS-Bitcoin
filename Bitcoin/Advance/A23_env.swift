@@ -88,7 +88,6 @@ struct A23_env: View {
                         
                         
                      
-                        Head(title: aii1)
 
                                Stext(title: aii2)
 

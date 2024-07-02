@@ -86,7 +86,7 @@ struct I1_what_is_bitcoin: View {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                        Head(title: a1)
+           
 
                                 Stext(title: a2)
 

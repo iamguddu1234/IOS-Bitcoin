@@ -72,7 +72,7 @@ struct I5_proof_of_work: View {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                        Head(title: e1)
+                       
 
                                Stext(title: e2)
 

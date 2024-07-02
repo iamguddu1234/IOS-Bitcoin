@@ -104,7 +104,6 @@ struct A16_cloud: View {
                         
                        
                         
-                        Head(title: ac1)
 
                         Stext(title: ac2)
 
@@ -119,6 +118,14 @@ struct A16_cloud: View {
                          Text2(title1: ac13, title2: ac14)
 
                          Head(title: ac15)
+                        
+                        Text2(title1: ac16, title2: ac17)
+
+                         Text2(title1: ac18, title2: ac19)
+
+                         Text2(title1: ac20, title2: ac21)
+                         Text2(title1: ac22, title2: ac23)
+                         Text2(title1: ac24, title2: ac25)
 
                          Stext(title: ac26)
 

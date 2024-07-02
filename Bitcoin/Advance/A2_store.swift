@@ -81,7 +81,7 @@ struct A2_store: View {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                        Head(title: q1)
+                      
 
                                Stext(title: q2)
 

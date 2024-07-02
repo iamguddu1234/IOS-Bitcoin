@@ -102,7 +102,6 @@ struct A25_ethical: View {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                        Head(title: ak1)
 
                                    Stext(title: ak2)
 

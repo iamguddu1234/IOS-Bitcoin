@@ -96,6 +96,7 @@ struct ListViewA1: View {
     func destinationView(for item: String) -> some View {
         switch item {
         case "Monetary Policy (How Bitcoin Controls Inflation)":
+            HapticFeedbackManager.shared.triggerHapticFeedback()
             return AnyView(A1_monetory().navigationTitle(item))
         case "Store of Value (Can Bitcoin be Digital Gold?)":
             return AnyView(A2_store().navigationTitle(item))

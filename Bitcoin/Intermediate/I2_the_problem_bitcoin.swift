@@ -74,7 +74,7 @@ struct I2_the_problem_bitcoin: View {
                         
                         
                        
-                        Head(title: b1)
+                       
 
                                 Stext(title: b2)
 

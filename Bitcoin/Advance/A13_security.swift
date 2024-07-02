@@ -112,25 +112,24 @@ struct A13_security: View {
                         
                         
                         
-                        Head(title: za1)
 
                                Stext(title: za2)
 
                                Text3(title1: za3, title2: za4, title3: za5)
 
-                               Text3(title1: za3, title2: za4, title3: za5)
+                               Text3(title1: za6, title2: za7, title3: za8)
 
-                               Text3(title1: za3, title2: za4, title3: za5)
+                               Text3(title1: za9, title2: za10, title3: za11)
 
-                               Text3(title1: za3, title2: za4, title3: za5)
+                               Text3(title1: za12, title2: za13, title3: za14)
 
-                               Text3(title1: za3, title2: za4, title3: za5)
+                               Text3(title1: za15, title2: za16, title3: za17)
 
-                               Text3(title1: za3, title2: za4, title3: za5)
+                               Text3(title1: za18, title2: za19, title3: za20)
 
-                               Text3(title1: za3, title2: za4, title3: za5)
+                               Text3(title1: za21, title2: za22, title3: za23)
 
-                               Text3(title1: za3, title2: za4, title3: za5)
+                               Text3(title1: za24, title2: za25, title3: za26)
 
                                Stext(title: za27)
                         

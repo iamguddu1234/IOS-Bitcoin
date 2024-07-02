@@ -98,7 +98,6 @@ struct A8_minning: View {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                        Head(title: w1)
 
                                   Stext(title: w2)
 

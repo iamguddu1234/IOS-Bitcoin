@@ -79,7 +79,7 @@ struct A1_monetory: View {
                         
                         
                         
-                        Head(title: pa1)
+                
 
                                 Stext(title: pa2)
 

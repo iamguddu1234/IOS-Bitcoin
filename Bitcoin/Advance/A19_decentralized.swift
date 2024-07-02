@@ -118,7 +118,6 @@ struct A19_decentralized: View {
                     VStack(alignment: .leading, spacing: 15) {
                         
                     
-                        Head(title: af1)
 
                                         Stext(title: af2)
 

@@ -107,7 +107,7 @@ struct B7_bitcoin_sell: View {
     Click "Buy now" and the Bitcoin will be added to your wallet immediately. Congrats!
     """
     let buye7 = """
-    *Check your Bitcoin digital wallet
+Check your Bitcoin digital wallet
 """
     let buye8 = """
     Click "Portfolio" in the side menu.

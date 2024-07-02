@@ -107,7 +107,7 @@ struct I19_nodes: View {
                         
                         
                      
-                        Head(title: oa1)
+                     
 
                         Stext(title: oa2)
 

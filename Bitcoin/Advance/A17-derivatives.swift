@@ -98,7 +98,6 @@ struct A17_derivatives: View {
                         
                         
                         
-                        Head(title: ad1)
 
                                 Stext(title: ad2)
 

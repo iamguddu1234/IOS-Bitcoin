@@ -80,7 +80,6 @@ struct A14_tax: View {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 15) {
                         
-                        Head(title: aa1)
 
                                   Stext(title: aa2)
 
