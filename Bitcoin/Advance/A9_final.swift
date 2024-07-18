@@ -117,7 +117,7 @@ struct A9_final: View {
                         
                         
 
-                                Stext(title: wa2)
+                                SStext(title: wa2)
 
                                 Text2(title1: wa3, title2: wa4)
 
@@ -151,7 +151,7 @@ struct A9_final: View {
 
                                 Text2(title1: wa28, title2: wa29)
 
-                                Stext(title: wa30)
+                                SStext(title: wa30)
                         
                         
                         

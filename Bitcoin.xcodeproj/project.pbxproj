@@ -73,6 +73,11 @@
 		B23935A02C10402E0072CC1D /* A23_env.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239359F2C10402E0072CC1D /* A23_env.swift */; };
 		B23935A22C1040410072CC1D /* A24_the_futu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935A12C1040410072CC1D /* A24_the_futu.swift */; };
 		B23935A42C10404E0072CC1D /* A25_ethical.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23935A32C10404E0072CC1D /* A25_ethical.swift */; };
+		B29434532C43D163004C7C1E /* SStext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29434522C43D163004C7C1E /* SStext.swift */; };
+		B29434552C43D333004C7C1E /* Text8.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29434542C43D333004C7C1E /* Text8.swift */; };
+		B29434572C43D468004C7C1E /* Text6.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29434562C43D468004C7C1E /* Text6.swift */; };
+		B29434592C43D50B004C7C1E /* Text7.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29434582C43D50B004C7C1E /* Text7.swift */; };
+		B294345B2C43D66C004C7C1E /* Text9.swift in Sources */ = {isa = PBXBuildFile; fileRef = B294345A2C43D66C004C7C1E /* Text9.swift */; };
 		B2D162722C186B63007B0F31 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D162712C186B63007B0F31 /* Demo.swift */; };
 		B2D1673C2C244DDB007B0F31 /* Head.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D1673B2C244DDB007B0F31 /* Head.swift */; };
 		B2D1673E2C244DFE007B0F31 /* Stext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D1673D2C244DFE007B0F31 /* Stext.swift */; };
@@ -155,6 +160,11 @@
 		B239359F2C10402E0072CC1D /* A23_env.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A23_env.swift; sourceTree = "<group>"; };
 		B23935A12C1040410072CC1D /* A24_the_futu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A24_the_futu.swift; sourceTree = "<group>"; };
 		B23935A32C10404E0072CC1D /* A25_ethical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A25_ethical.swift; sourceTree = "<group>"; };
+		B29434522C43D163004C7C1E /* SStext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SStext.swift; sourceTree = "<group>"; };
+		B29434542C43D333004C7C1E /* Text8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text8.swift; sourceTree = "<group>"; };
+		B29434562C43D468004C7C1E /* Text6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text6.swift; sourceTree = "<group>"; };
+		B29434582C43D50B004C7C1E /* Text7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text7.swift; sourceTree = "<group>"; };
+		B294345A2C43D66C004C7C1E /* Text9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text9.swift; sourceTree = "<group>"; };
 		B2D162712C186B63007B0F31 /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
 		B2D1673B2C244DDB007B0F31 /* Head.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Head.swift; sourceTree = "<group>"; };
 		B2D1673D2C244DFE007B0F31 /* Stext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stext.swift; sourceTree = "<group>"; };
@@ -335,6 +345,11 @@
 				B2D167472C255F67007B0F31 /* Text4.swift */,
 				B2D167492C25612E007B0F31 /* Text5.swift */,
 				B2D167882C33A0DE007B0F31 /* LinkView.swift */,
+				B29434522C43D163004C7C1E /* SStext.swift */,
+				B29434542C43D333004C7C1E /* Text8.swift */,
+				B29434562C43D468004C7C1E /* Text6.swift */,
+				B29434582C43D50B004C7C1E /* Text7.swift */,
+				B294345A2C43D66C004C7C1E /* Text9.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -438,9 +453,11 @@
 				B239355E2C103C7A0072CC1D /* I10_altcoin.swift in Sources */,
 				B2DD15AB2C142DDF00AF3D3B /* Item.swift in Sources */,
 				B2D167892C33A0DE007B0F31 /* LinkView.swift in Sources */,
+				B29434532C43D163004C7C1E /* SStext.swift in Sources */,
 				B23935A02C10402E0072CC1D /* A23_env.swift in Sources */,
 				B239357C2C103E300072CC1D /* A5_austrain.swift in Sources */,
 				B239356E2C103D480072CC1D /* I18_forks.swift in Sources */,
+				B29434572C43D468004C7C1E /* Text6.swift in Sources */,
 				B239359E2C1040250072CC1D /* A22_real_world.swift in Sources */,
 				B239356C2C103D3C0072CC1D /* I17_smart_contract.swift in Sources */,
 				B23935822C103E580072CC1D /* A8_minning.swift in Sources */,
@@ -463,6 +480,7 @@
 				B2DD15B32C14686A00AF3D3B /* Text2.swift in Sources */,
 				B239358C2C103FAA0072CC1D /* A13_security.swift in Sources */,
 				B23935502C103C220072CC1D /* I3_decentralized.swift in Sources */,
+				B29434592C43D50B004C7C1E /* Text7.swift in Sources */,
 				B239355C2C103C6E0072CC1D /* I9_security.swift in Sources */,
 				B2D167832C30FEEA007B0F31 /* HapticFeedbackManager.swift in Sources */,
 				B2D162722C186B63007B0F31 /* Demo.swift in Sources */,
@@ -479,12 +497,14 @@
 				B23935162C0DDF180072CC1D /* BitcoinApp.swift in Sources */,
 				B23935702C103D530072CC1D /* I19_nodes.swift in Sources */,
 				B239357E2C103E420072CC1D /* A6_deflationary.swift in Sources */,
+				B29434552C43D333004C7C1E /* Text8.swift in Sources */,
 				B23935882C103F910072CC1D /* A11_privacy.swift in Sources */,
 				B2D1673E2C244DFE007B0F31 /* Stext.swift in Sources */,
 				B23935462C0E369A0072CC1D /* B9_bitcoin_application.swift in Sources */,
 				B23935982C103FFD0072CC1D /* A19_decentralized.swift in Sources */,
 				B239353C2C0E35DA0072CC1D /* B4_what_is_crypto.swift in Sources */,
 				B23935272C0DDF380072CC1D /* LottieView.swift in Sources */,
+				B294345B2C43D66C004C7C1E /* Text9.swift in Sources */,
 				B2D167482C255F67007B0F31 /* Text4.swift in Sources */,
 				B23935362C0E35AE0072CC1D /* B1_intro.swift in Sources */,
 				B23935622C103CF30072CC1D /* i12_cryptography.swift in Sources */,

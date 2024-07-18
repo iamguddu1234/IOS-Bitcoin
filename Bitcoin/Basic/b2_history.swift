@@ -62,25 +62,25 @@ struct b2_history: View {
                         
                         
                         
-                        Stext(title: his1)
+                        SStext(title: his1)
 
-                              Stext(title: his2)
+                              SStext(title: his2)
 
-                              Stext(title: his3)
+                              SStext(title: his3)
 
-                              Stext(title: his4)
+                              SStext(title: his4)
 
-                              Stext(title: his5)
+                              SStext(title: his5)
 
-                              Stext(title: his6)
+                              SStext(title: his6)
 
-                               Stext(title: his7)
+                               SStext(title: his7)
 
-                                Stext(title: his8)
+                                SStext(title: his8)
 
-                                 Stext(title: his9)
+                                 SStext(title: his9)
 
-                                  Stext(title: his10)
+                                  SStext(title: his10)
                                
                         
                         

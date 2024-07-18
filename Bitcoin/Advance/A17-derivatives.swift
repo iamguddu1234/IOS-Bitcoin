@@ -15,14 +15,14 @@ struct A17_derivatives: View {
     let ad2 = """
       Derivatives and futures markets play a significant role in the cryptocurrency ecosystem, providing investors and traders with additional tools for managing risk, speculating on price movements, and hedging against volatility. Here\'s an overview of trading Bitcoin derivatives and futures contracts:
       """
-
+    
     let ad3 = """
       1.Definition of Derivatives:
       """
     let ad4 = """
       Derivatives are financial instruments whose value is derived from the underlying asset, which can be stocks, commodities, currencies, or cryptocurrencies like Bitcoin. Derivatives allow investors to gain exposure to the price movements of the underlying asset without directly owning it.
       """
-
+    
     let ad5 = """
       2.Bitcoin Futures Contracts:
       """
@@ -32,7 +32,7 @@ struct A17_derivatives: View {
     let ad7 = """
       Bitcoin futures are traded on regulated futures exchanges such as the Chicago Mercantile Exchange (CME) and the Intercontinental Exchange (ICE) Futures US. These exchanges offer cash-settled Bitcoin futures contracts, which are settled in fiat currency (e.g., USD) rather than physical delivery of Bitcoin.
       """
-
+    
     let ad8 = """
       3.Trading Mechanism:
       """
@@ -42,7 +42,7 @@ struct A17_derivatives: View {
     let ad10 = """
       Futures exchanges facilitate trading by matching buyers and sellers and providing a centralized marketplace for price discovery and liquidity. Market participants can enter long (buy) or short (sell) positions on Bitcoin futures contracts, depending on their market outlook and trading strategy.
       """
-
+    
     let ad11 = """
       4.Margin Trading and Leverage:
       """
@@ -52,7 +52,7 @@ struct A17_derivatives: View {
     let ad13 = """
       While leverage magnifies potential profits, it also amplifies losses, and traders should be aware of the risks associated with leveraged trading. Exchanges impose margin requirements and liquidation thresholds to manage risk and prevent excessive leverage.
       """
-
+    
     let ad14 = """
       5.Hedging and Risk Management:
       """
@@ -62,7 +62,7 @@ struct A17_derivatives: View {
     let ad16 = """
       Institutional investors, miners, and cryptocurrency exchanges may use Bitcoin futures for hedging purposes, protecting against adverse price movements and stabilizing cash flows.
       """
-
+    
     let ad17 = """
       6.Market Impact and Price Discovery:
       """
@@ -72,7 +72,7 @@ struct A17_derivatives: View {
     let ad19 = """
       Arbitrage opportunities between Bitcoin spot and futures markets help maintain price convergence and efficient market functioning. Market participants engage in arbitrage strategies to exploit price differentials and maintain equilibrium between spot and futures prices.
       """
-
+    
     let ad20 = """
       7.Regulatory Considerations:
       """
@@ -82,7 +82,7 @@ struct A17_derivatives: View {
     let ad22 = """
       Regulatory approval and compliance are essential for futures exchanges and derivative products to operate legally and maintain investor trust. Exchanges must adhere to regulatory requirements, conduct surveillance and monitoring, and enforce trading rules and compliance standards.
       """
-
+    
     let ad23 = """
       In summary, Bitcoin derivatives and futures markets offer investors and traders valuable tools for managing risk, speculating on price movements, and hedging against volatility in the cryptocurrency market. Futures trading provides liquidity, price discovery, and risk management mechanisms that contribute to the maturation and institutionalization of the Bitcoin ecosystem. However, traders should be aware of the risks associated with derivatives trading, including leverage, market volatility, and regulatory considerations, and employ proper risk management strategies when trading Bitcoin futures contracts.
       """
@@ -98,25 +98,25 @@ struct A17_derivatives: View {
                         
                         
                         
-
-                                Stext(title: ad2)
-
-                                Text2(title1: ad3, title2: ad4)
-
-                                Text3(title1: ad5, title2: ad6, title3: ad7)
-
-                                  Text3(title1: ad8, title2: ad9, title3: ad10)
-
-                                    Text3(title1: ad11, title2: ad12, title3: ad13)
-
-                                      Text3(title1: ad14, title2: ad15, title3: ad16)
-
-                                        Text3(title1: ad17, title2: ad18, title3: ad19)
-
-                                          Text3(title1: ad20, title2: ad21, title3: ad22)
-
-                                          Stext(title: ad23)
-
+                        
+                        SStext(title: ad2)
+                        
+                        Text2(title1: ad3, title2: ad4)
+                        
+                        Text3(title1: ad5, title2: ad6, title3: ad7)
+                        
+                        Text3(title1: ad8, title2: ad9, title3: ad10)
+                        
+                        Text3(title1: ad11, title2: ad12, title3: ad13)
+                        
+                        Text3(title1: ad14, title2: ad15, title3: ad16)
+                        
+                        Text3(title1: ad17, title2: ad18, title3: ad19)
+                        
+                        Text3(title1: ad20, title2: ad21, title3: ad22)
+                        
+                        SStext(title: ad23)
+                        
                         
                         
                         

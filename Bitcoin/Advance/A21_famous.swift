@@ -102,7 +102,7 @@ struct A21_famous: View {
                         
                         
 
-                                Stext(title: ah2)
+                                SStext(title: ah2)
 
                                 Text2(title1: ah3, title2: ah4)
 
@@ -132,7 +132,7 @@ struct A21_famous: View {
 
                                 Text2(title1: ah21, title2: ah22)
 
-                                Stext(title: ah23)
+                                SStext(title: ah23)
                         
                         
                         

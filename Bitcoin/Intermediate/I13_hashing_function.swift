@@ -68,7 +68,7 @@ struct I13_hashing_function: View {
                         
                     
 
-                                Stext(title: k2)
+                                SStext(title: k2)
 
                                 Text2(title1: k3, title2: k4)
 
@@ -80,7 +80,7 @@ struct I13_hashing_function: View {
 
                                 Text2(title1: k11, title2: k12)
 
-                                Stext(title: k13)
+                                SStext(title: k13)
                         
                         
                         

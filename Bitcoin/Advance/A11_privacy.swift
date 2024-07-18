@@ -82,7 +82,7 @@ struct A11_privacy: View {
                         
                         
 
-                              Stext(title: y2)
+                              SStext(title: y2)
 
                               Text3(title1: y3, title2: y4, title3: y5)
 
@@ -94,7 +94,7 @@ struct A11_privacy: View {
 
                               Text3(title1: y16, title2: y17, title3: y18)
 
-                              Stext(title: y19)
+                              SStext(title: y19)
                         
                         
                         

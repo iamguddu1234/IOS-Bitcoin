@@ -83,7 +83,7 @@ struct A5_austrain: View {
                         
                 
 
-                                Stext(title: t2)
+                                SStext(title: t2)
 
                                 Text3(title1: t3, title2: t4, title3: t5)
 
@@ -95,7 +95,7 @@ struct A5_austrain: View {
 
                                 Text3(title1: t15, title2: t16, title3: t17)
 
-                                Stext(title: t18)
+                                SStext(title: t18)
                         
                         
                         

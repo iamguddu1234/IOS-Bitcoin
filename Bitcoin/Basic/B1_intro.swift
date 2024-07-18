@@ -13,31 +13,31 @@ struct B1_intro: View {
     let intro1 = """
     Bitcoin is a digital currency or cryptocurrency which has gained popularity since it started in 2009. It is owned and controlled by its users, peer to peer and has no central control like traditional currencies. It is enabled using a technology called Blockchain, which is a new kind of database or list of encrypted digital blocks linked together in a secure way. Bitcoin was the first real world application of blockchain.
     """
-     
+    
     let intro2 = """
     Blockchain allows cryptocurrencies like Bitcoin to function and enhances security. In addition, Blockchain can be used for, Smart contracts, Financial services, Video games, Energy trading and the Supply chain. Blockchain was started by a mystery person (or people) named Satoshi Nakamoto as an open source technology. Bitcoin was the first and is the most popular cryptocurrency followed by Ethereum.
     """
-
+    
     let intro3 = """
     Bitcoin (₿) is a decentralized digital currency, without a central bank or single administrator, that can be sent from user to user on the peer-to-peer bitcoin network without the need for intermediaries.Transactions are verified by network nodes through cryptography and recorded in a public distributed ledger called a blockchain. The cryptocurrency was invented in 2008 by an unknown person or group of people using the name Satoshi Nakamoto.The currency began use in 2009 when its implementation was released as open-source software.
     """
-
+    
     let intro4 = """
     Bitcoins are created as a reward for a process known as mining. They can be exchanged for other currencies, products, and services,but the real-world value of the coins is extremely volatile.Research produced by the University of Cambridge estimated that in 2017, there were 2.9 to 5.8 million unique users using a cryptocurrency wallet, most of them using bitcoin.Users choose to participate in the digital currency for a number of reasons: ideologies such as commitment to anarchism, decentralization and libertarianism, convenience, using the currency as an investment and pseudonymity of transactions. Increased use has led to a desire among governments for regulation in order to tax, facilitate legal use in trade and for other reasons (such as investigations for money laundering and price manipulation).
     """
-
+    
     let intro5 = """
     Bitcoin has been criticized for its use in illegal transactions, the large amount of electricity (and thus carbon footprint) used by mining, price volatility, and thefts from exchanges. Some economists and commentators have characterized it as a speculative bubble at various times. Bitcoin has also been used as an investment, although several regulatory agencies have issued investor alerts about bitcoin.
     """
-
+    
     let intro5a = """
     How does Bitcoin have value?
     """
-
+    
     let intro5b = """
     It is the common consensus, belief and the perception that gives value to the bitcoin. All the participate in this system have consensus on the following-
     """
-
+    
     let intro6 = """
     immutability and integrity of the blockchain
     """
@@ -249,94 +249,89 @@ struct B1_intro: View {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                        Stext(title: intro1)
-
-                                Stext(title: intro2)
-
-                                 Stext(title: intro3)
-
-                                  Stext(title: intro4)
-
-                                   Stext(title: intro5)
-
-                                   Head(title: intro5a)
-
-                                   Stext(title: intro5b)
-
-                                     Stext(title: intro6)
-
-                                       Stext(title: intro7)
-
-                                         Stext(title: intro8)
-
-                                           Stext(title: intro9)
-
-                                           Head(title: intro10)
-
-                                           Text2(title1: intro11a, title2: intro11)
-
-                                            Text2(title1: intro12a, title2: intro12)
-
-                                             Text2(title1: intro13a, title2: intro13)
-
-                                              Text2(title1: intro14a, title2: intro14)
-
-                                               Text2(title1: intro15a, title2: intro15)
-
-                                                Text2(title1: intro16a, title2: intro16)
-
-                                                 Text2(title1: intro17a, title2: intro17)
-
-                                                  Text2(title1: intro18a, title2: intro18)
-
-                                                   Text2(title1: intro19a, title2: intro19)
-
-                                                    Text2(title1: intro20a, title2: intro20)
-
-                                                     Text2(title1: intro21a, title2: intro21)
-
-                                                      Text2(title1: intro22a, title2: intro22)
-
-                                                       Text2(title1: intro23a, title2: intro23)
-
-                                                        Text2(title1: intro24a, title2: intro24)
-
-                                                         Text2(title1: intro25a, title2: intro25)
-
-                                                          Text2(title1: intro26a, title2: intro26)
-
-                                                           Text2(title1: intro27a, title2: intro27)
-
-                                                            Text2(title1: intro28a, title2: intro28)
-
-                                                             Text2(title1: intro29a, title2: intro29)
-
-                                                              Text2(title1: intro30a, title2: intro30)
-
-                                                               Text2(title1: intro31a, title2: intro31)
-
-                                                                Text2(title1: intro32a, title2: intro32)
-
-                                                                 Text2(title1: intro33a, title2: intro33)
-
-                                                                  Text2(title1: intro34a, title2: intro34)
-
-
-                                                                   Text2(title1: intro35a, title2: intro35)
-
-                                                                    Text2(title1: intro36a, title2: intro36)
-
-                                                                     Text2(title1: intro37a, title2: intro37)
-
-                                                                      Text2(title1: intro38a, title2: intro38)
-
-                                                                       Text2(title1: intro39a, title2: intro39)
-
-                                                                        Text2(title1: intro40a, title2: intro40)
-
-                                                                         Head(title: intro41)
-
-
+                        SStext(title: intro1)
+                        
+                        SStext(title: intro2)
+                        
+                        SStext(title: intro3)
+                        
+                        SStext(title: intro4)
+                        
+                        SStext(title: intro5)
+                        
+                        
+                        Text6(title1: intro5a, title2: intro5b, title3: intro6, title4: intro7, title5: intro8, title6: intro9)
+                        
+                      
+                        
+                        
+                        
+                        Head(title: intro10)
+                        
+                        Text2(title1: intro11a, title2: intro11)
+                        
+                        Text2(title1: intro12a, title2: intro12)
+                        
+                        Text2(title1: intro13a, title2: intro13)
+                        
+                        Text2(title1: intro14a, title2: intro14)
+                        
+                        Text2(title1: intro15a, title2: intro15)
+                        
+                        Text2(title1: intro16a, title2: intro16)
+                        
+                        Text2(title1: intro17a, title2: intro17)
+                        
+                        Text2(title1: intro18a, title2: intro18)
+                        
+                        Text2(title1: intro19a, title2: intro19)
+                        
+                        Text2(title1: intro20a, title2: intro20)
+                        
+                        Text2(title1: intro21a, title2: intro21)
+                        
+                        Text2(title1: intro22a, title2: intro22)
+                        
+                        Text2(title1: intro23a, title2: intro23)
+                        
+                        Text2(title1: intro24a, title2: intro24)
+                        
+                        Text2(title1: intro25a, title2: intro25)
+                        
+                        Text2(title1: intro26a, title2: intro26)
+                        
+                        Text2(title1: intro27a, title2: intro27)
+                        
+                        Text2(title1: intro28a, title2: intro28)
+                        
+                        Text2(title1: intro29a, title2: intro29)
+                        
+                        Text2(title1: intro30a, title2: intro30)
+                        
+                        Text2(title1: intro31a, title2: intro31)
+                        
+                        Text2(title1: intro32a, title2: intro32)
+                        
+                        Text2(title1: intro33a, title2: intro33)
+                        
+                        Text2(title1: intro34a, title2: intro34)
+                        
+                        
+                        Text2(title1: intro35a, title2: intro35)
+                        
+                        Text2(title1: intro36a, title2: intro36)
+                        
+                        Text2(title1: intro37a, title2: intro37)
+                        
+                        Text2(title1: intro38a, title2: intro38)
+                        
+                        Text2(title1: intro39a, title2: intro39)
+                        
+                        Text2(title1: intro40a, title2: intro40)
+                        
+                        Head(title: intro41)
+                        
+                        
                         
                         
                         

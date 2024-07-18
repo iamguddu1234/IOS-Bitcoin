@@ -88,7 +88,7 @@ struct I1_what_is_bitcoin: View {
                         
            
 
-                                Stext(title: a2)
+                                SStext(title: a2)
 
                                 Head(title: a3)
 
@@ -106,7 +106,7 @@ struct I1_what_is_bitcoin: View {
 
                                 Text2(title1: a16, title2: a17)
 
-                                Stext(title: a18)
+                                SStext(title: a18)
 
                         
                         

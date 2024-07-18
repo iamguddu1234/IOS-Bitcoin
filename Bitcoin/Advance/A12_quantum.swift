@@ -15,7 +15,7 @@ struct A12_quantum: View {
     let z2 = """
       Quantum computing poses potential threats to traditional cryptographic systems and security protocols, including those used in cryptocurrencies like Bitcoin. Here\'s an overview of the quantum computing threats and potential future challenges:
       """
-
+    
     let z3 = """
       1.Shor\'s Algorithm:
       """
@@ -25,7 +25,7 @@ struct A12_quantum: View {
     let z5 = """
       Quantum computers leveraging Shor\'s algorithm could theoretically break widely deployed cryptographic algorithms, rendering traditional encryption methods vulnerable to decryption attacks. As a result, sensitive data protected by these algorithms may be exposed to unauthorized access.
       """
-
+    
     let z6 = """
       2.Grover\'s Algorithm:
       """
@@ -35,7 +35,7 @@ struct A12_quantum: View {
     let z8 = """
       While Grover\'s algorithm does not directly break cryptographic schemes, it reduces the effective security strength of symmetric encryption algorithms by halving their key length. For example, a symmetric key that offers 256-bit security against classical attacks would only provide 128-bit security against quantum attacks using Grover\'s algorithm.
       """
-
+    
     let z9 = """
       3.Cryptographic Vulnerabilities:
       """
@@ -45,7 +45,7 @@ struct A12_quantum: View {
     let z11 = """
       As quantum computers become more powerful and capable, the time frame for transitioning to quantum-resistant cryptographic algorithms becomes critical. Failure to migrate to quantum-resistant schemes in a timely manner could expose sensitive data and communication channels to exploitation by adversaries with quantum capabilities.
       """
-
+    
     let z12 = """
       4.Quantum-Safe Cryptography:
       """
@@ -55,7 +55,7 @@ struct A12_quantum: View {
     let z14 = """
       Research and standardization efforts are underway to develop and standardize quantum-resistant cryptographic algorithms through organizations such as the National Institute of Standards and Technology (NIST). Quantum-safe algorithms include lattice-based cryptography, hash-based signatures, multivariate polynomial cryptography, and code-based cryptography.
       """
-
+    
     let z15 = """
       5.Transition Challenges:
       """
@@ -65,7 +65,7 @@ struct A12_quantum: View {
     let z17 = """
       Organizations and industries must plan and implement migration strategies to adopt quantum-resistant algorithms, update cryptographic libraries and protocols, and ensure compatibility with legacy systems. Additionally, regulatory frameworks and industry standards may need to evolve to accommodate the transition to quantum-safe cryptography.
       """
-
+    
     let z18 = """
       In summary, quantum computing presents significant challenges to traditional cryptographic systems and security protocols, potentially compromising the confidentiality, integrity, and authenticity of sensitive information. Addressing these threats requires proactive measures, including research into quantum-resistant cryptography, standardization efforts, and strategic planning for transitioning to quantum-safe cryptographic algorithms. Failure to mitigate quantum computing threats could have far-reaching implications for cybersecurity and information privacy in the digital age.
       """
@@ -79,20 +79,20 @@ struct A12_quantum: View {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 15) {
                         
-
-                               Stext(title: z2)
-
-                               Text3(title1: z3, title2: z4, title3: z5)
-
-                                Text3(title1: z6, title2: z7, title3: z8)
-
-                                 Text3(title1: z9, title2: z10, title3: z11)
-
-                                  Text3(title1: z12, title2: z13, title3: z14)
-
-                                   Text3(title1: z15, title2: z16, title3: z17)
-
-                                   Stext(title: z18)
+                        
+                        SStext(title: z2)
+                        
+                        Text3(title1: z3, title2: z4, title3: z5)
+                        
+                        Text3(title1: z6, title2: z7, title3: z8)
+                        
+                        Text3(title1: z9, title2: z10, title3: z11)
+                        
+                        Text3(title1: z12, title2: z13, title3: z14)
+                        
+                        Text3(title1: z15, title2: z16, title3: z17)
+                        
+                        SStext(title: z18)
                         
                         
                         

@@ -99,7 +99,7 @@ struct A8_minning: View {
                         
                         
 
-                                  Stext(title: w2)
+                                  SStext(title: w2)
 
                                   Head(title: w3)
 
@@ -125,7 +125,7 @@ struct A8_minning: View {
 
                                   Text2(title1: w22, title2: w23)
 
-                                  Stext(title: w24)
+                                  SStext(title: w24)
                         
                         
                         

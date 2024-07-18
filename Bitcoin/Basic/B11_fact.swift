@@ -33,7 +33,7 @@ struct B11_fact: View {
     let b_fact6 = """
     6. Power Consumption consumes approximately 5,000 kilowatt-hours of electricity each year. All the bitcoin mining farms together consume about 60 terawatt-hours of electricity, which is approximately 6 x 1010 kilowatt-hours—a large amount of power. The entire country of Ireland, which is the second-most-populated city in Europe and has 84,421 square kilometers of area, consumes less electricity than all these farms combined.
     """
-   let b_fact7 = """
+    let b_fact7 = """
     7. Bitcoin Ban several countries around the world, such as Canada and America, have wholeheartedly accepted Bitcoin, some haven’t. Countries including Bolivia, Iceland, Bangladesh, and Ecuador have completely banned the usage of bitcoins. There are also countries, including India, Thailand, and Iran, that have asked their residents to be careful while using cryptocurrencies but haven’t completely banned it—however, they do not accept it as legal tender.
     """
     
@@ -52,7 +52,7 @@ struct B11_fact: View {
     let b_fact11 = """
     11. In Japanese, the name roughly translates into: Satoshi: clear-thinking, quick-witted, wise\n\nNaka: inside, or relationship\n\nMoto: the foundation\n
     """
-
+    
     let b_fact12 = """
     12 .Some conspiracy theorists even believe that it was created by 4 tech giants and that the name was derived from the first two letters of the name of the first company, and the first 4 letters of the name of the remaining three companies.\nThey include …\nSamsung: SA\nToshiba: TOSHI\nNakamichi: NAKA\nMotorola: MOTO\n\n… to give the name: SATOSHI Nakamoto
     """
@@ -127,8 +127,8 @@ struct B11_fact: View {
     let b_fact30 = """
     30. Bitcoin is very volatile\nBitcoin is highly volatile. The world’s largest digital currency has surely generated a great return for some investors. However, Bitcoin has a highly volatile nature which undermines its ability to function as a proper currency. Predictions have also been made that Bitcoin might fall in the future if it follows its current path. \nMarket analysis has pointed out numerous factors that can explain why bitcoin is so volatile. Those include news events, market size, inequality of wealth, regulation, low liquidity and more.
     """
-
-
+    
+    
     var body: some View {
         ZStack {
             // Background color or other background elements
@@ -139,68 +139,68 @@ struct B11_fact: View {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                        Stext(title: b_fact1)
-
-                              Stext(title: b_fact2)
-
-                              Stext(title: b_fact3)
-
-
-                              Stext(title: b_fact4)
-
-                              Stext(title: b_fact5)
-
-                              Stext(title: b_fact6)
-
-                              Stext(title: b_fact7)
-
-                              Stext(title: b_fact8)
-
-                              Stext(title: b_fact9)
-
-                              Stext(title: b_fact10)
-
-                              Stext(title: b_fact11)
-
-                              Stext(title: b_fact12)
-
-                              Stext(title: b_fact13)
-
-                              Stext(title: b_fact14)
-
-                              Stext(title: b_fact15)
-
-                              Stext(title: b_fact16)
-
-                              Stext(title: b_fact17)
-
-                              Stext(title: b_fact18)
-
-                              Stext(title: b_fact19)
-
-                              Stext(title: b_fact20)
-
-                              Stext(title: b_fact21)
-
-                              Stext(title: b_fact22)
-
-                              Stext(title: b_fact23)
-
-                              Stext(title: b_fact24)
-
-                              Stext(title: b_fact25)
-
-                              Stext(title: b_fact26)
-
-                              Stext(title: b_fact27)
-
-                              Stext(title: b_fact28)
-
-
-                              Stext(title: b_fact29)
-
-                              Stext(title: b_fact30)
-                              
+                        SStext(title: b_fact1)
+                        
+                        SStext(title: b_fact2)
+                        
+                        SStext(title: b_fact3)
+                        
+                        
+                        SStext(title: b_fact4)
+                        
+                        SStext(title: b_fact5)
+                        
+                        SStext(title: b_fact6)
+                        
+                        SStext(title: b_fact7)
+                        
+                        SStext(title: b_fact8)
+                        
+                        SStext(title: b_fact9)
+                        
+                        SStext(title: b_fact10)
+                        
+                        SStext(title: b_fact11)
+                        
+                        SStext(title: b_fact12)
+                        
+                        SStext(title: b_fact13)
+                        
+                        SStext(title: b_fact14)
+                        
+                        SStext(title: b_fact15)
+                        
+                        SStext(title: b_fact16)
+                        
+                        SStext(title: b_fact17)
+                        
+                        SStext(title: b_fact18)
+                        
+                        SStext(title: b_fact19)
+                        
+                        SStext(title: b_fact20)
+                        
+                        SStext(title: b_fact21)
+                        
+                        SStext(title: b_fact22)
+                        
+                        SStext(title: b_fact23)
+                        
+                        SStext(title: b_fact24)
+                        
+                        SStext(title: b_fact25)
+                        
+                        SStext(title: b_fact26)
+                        
+                        SStext(title: b_fact27)
+                        
+                        SStext(title: b_fact28)
+                        
+                        
+                        SStext(title: b_fact29)
+                        
+                        SStext(title: b_fact30)
+                        
                         
                         
                         

@@ -89,7 +89,7 @@ struct A3_medium: View {
                         
                     
 
-                               Stext(title: r2)
+                               SStext(title: r2)
 
                                Text2(title1: r3, title2: r4)
 
@@ -113,7 +113,7 @@ struct A3_medium: View {
 
                                Text2(title1: r17, title2: r18)
 
-                               Stext(title: r19)
+                               SStext(title: r19)
                         
                         
                         

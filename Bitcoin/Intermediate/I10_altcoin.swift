@@ -93,7 +93,7 @@ struct I10_altcoin: View {
 
                               Text2(title1: ha33, title2: ha34)
 
-                              Stext(title: ha35)
+                              SStext(title: ha35)
                         
                         
                         

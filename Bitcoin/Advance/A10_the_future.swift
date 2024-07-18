@@ -88,7 +88,7 @@ struct A10_the_future: View {
                         
                         
 
-                               Stext(title: x2)
+                               SStext(title: x2)
 
                                Text2(title1: x3, title2: x4)
 
@@ -112,7 +112,7 @@ struct A10_the_future: View {
 
                                 Text2(title1: x17, title2: x18)
 
-                                Stext(title: x19)
+                                SStext(title: x19)
                                
 
 

@@ -43,17 +43,17 @@ struct B3_who_is_santoshi_nakamoto: View {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                        Stext(title: whoissa1)
+                        SStext(title: whoissa1)
 
-                                 Stext(title: whoissa2)
+                                 SStext(title: whoissa2)
 
-                                  Stext(title: whoissa3)
+                                  SStext(title: whoissa3)
 
-                                   Stext(title: whoissa4)
+                                   SStext(title: whoissa4)
 
-                                    Stext(title: whoissa5)
+                                    SStext(title: whoissa5)
 
-                                     Stext(title: whoissa6)
+                                     SStext(title: whoissa6)
                         
                         
                         

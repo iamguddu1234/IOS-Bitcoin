@@ -92,7 +92,7 @@ struct A20_the_philosophy: View {
                         
                         
 
-                               Stext(title: ag2)
+                               SStext(title: ag2)
 
                                Text3(title1: ag3, title2: ag4, title3: ag5)
 
@@ -106,7 +106,7 @@ struct A20_the_philosophy: View {
 
                                Text3(title1: ag18, title2: ag19, title3: ag20)
 
-                               Stext(title: ag21)
+                               SStext(title: ag21)
                         
                         
                         

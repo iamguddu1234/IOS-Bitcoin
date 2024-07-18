@@ -12,18 +12,18 @@ struct A14_tax: View {
     let aa1 = """
       34. Tax Implications of Bitcoin (Reporting Capital Gains and Losses)
       """
-
+    
     let aa2 = """
       The tax implications of Bitcoin transactions, including reporting capital gains and losses, depend on the tax regulations in your jurisdiction. However, here are some general guidelines that apply in many countries, including the United States:
       """
-
+    
     let aa3 = """
       1.Classification of Bitcoin:
       """
     let aa4 = """
       In most jurisdictions, including the U.S., tax authorities treat Bitcoin and other cryptocurrencies as property for tax purposes rather than currency. This means that transactions involving Bitcoin are subject to capital gains tax rules similar to buying and selling other types of property, such as stocks or real estate.
       """
-
+    
     let aa5 = """
       2.Capital Gains and Losses:
       """
@@ -36,7 +36,7 @@ struct A14_tax: View {
     let aa8 = """
       Capital gains and losses must be reported on your tax return, and taxes must be paid on any realized gains. If you have a net capital loss for the year, you may be able to use it to offset other capital gains or deduct a portion of it from your taxable income, subject to certain limitations.
       """
-
+    
     let aa9 = """
       3.Reporting Requirements:
       """
@@ -46,7 +46,7 @@ struct A14_tax: View {
     let aa11 = """
       Taxpayers should keep detailed records of their Bitcoin transactions, including purchase and sale dates, amounts, prices, and any associated fees. This information will be necessary for accurately reporting capital gains and losses on their tax returns and responding to any inquiries from tax authorities.
       """
-
+    
     let aa12 = """
       4.Tax Treatment of Mining and Income:
       """
@@ -56,7 +56,7 @@ struct A14_tax: View {
     let aa14 = """
       Payments received in Bitcoin for goods or services rendered are also subject to income tax, and the fair market value of the Bitcoin received must be reported as taxable income. Businesses accepting Bitcoin payments should maintain records of these transactions for tax reporting purposes.
       """
-
+    
     let aa15 = """
       5.Tax Compliance and Legal Advice:
       """
@@ -66,7 +66,7 @@ struct A14_tax: View {
     let aa17 = """
       Failure to report Bitcoin transactions and pay taxes on realized gains can result in penalties, fines, and potential legal consequences. Taxpayers should proactively address their tax obligations and maintain accurate records to comply with tax laws and regulations.
       """
-
+    
     let aa18 = """
       In summary, the tax implications of Bitcoin transactions, including reporting capital gains and losses, require careful consideration and compliance with applicable tax laws and regulations. Taxpayers should maintain accurate records of their Bitcoin transactions, seek professional tax advice if needed, and ensure timely and accurate reporting of taxable income and capital gains on their tax returns.
       """
@@ -80,20 +80,20 @@ struct A14_tax: View {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 15) {
                         
-
-                                  Stext(title: aa2)
-
-                                  Text2(title1: aa3, title2: aa4)
-
-                                  Text4(title1: aa5, title2: aa6, title3: aa7, title4: aa8)
-
-                                   Text3(title1: aa9, title2: aa10, title3: aa11)
-
-                                    Text3(title1: aa12, title2: aa13, title3: aa14)
-
-                                     Text3(title1: aa15, title2: aa16, title3: aa17)
-
-                                     Stext(title: aa18)
+                        
+                        SStext(title: aa2)
+                        
+                        Text2(title1: aa3, title2: aa4)
+                        
+                        Text4(title1: aa5, title2: aa6, title3: aa7, title4: aa8)
+                        
+                        Text3(title1: aa9, title2: aa10, title3: aa11)
+                        
+                        Text3(title1: aa12, title2: aa13, title3: aa14)
+                        
+                        Text3(title1: aa15, title2: aa16, title3: aa17)
+                        
+                        SStext(title: aa18)
                         
                         
                         

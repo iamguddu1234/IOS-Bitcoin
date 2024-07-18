@@ -111,7 +111,7 @@ struct I20_regulation: View {
                         
                       
 
-                               Stext(title: p2)
+                               SStext(title: p2)
 
                                Head(title: p3)
 
@@ -143,7 +143,7 @@ struct I20_regulation: View {
 
                                Text2(title1: p26, title2: p27)
 
-                               Stext(title: p28)
+                               SStext(title: p28)
 
                         
                         

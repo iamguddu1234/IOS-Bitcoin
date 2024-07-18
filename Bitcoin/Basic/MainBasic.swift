@@ -23,8 +23,6 @@ struct MainBasic: View {
     var body: some View {
         
 
-            
-        NavigationView {
             ScrollView{
                 
                 
@@ -52,13 +50,9 @@ struct MainBasic: View {
                 }
                 
             }
-       
+            .navigationBarTitleDisplayMode(.inline)
 
-        }
-                
-                
-            
-        
+
 
     }
 }
@@ -75,6 +69,8 @@ struct ListViewB1: View {
                  ], id: \.self) { item in
                 NavigationLink(destination: destinationView(for: item)
                                 .onAppear { showTabBar = false }
+                    .navigationBarTitleDisplayMode(.inline)
+
                     .navigationTitle(item)) {
 
                     CardView(item: item)
@@ -121,6 +117,8 @@ struct ListViewB2: View {
                     ], id: \.self) { item in
                 NavigationLink(destination: destinationView(for: item)
                                 .onAppear { showTabBar = false }
+                    .navigationBarTitleDisplayMode(.inline)
+
                     .navigationTitle(item)) {
 
                     CardView(item: item)

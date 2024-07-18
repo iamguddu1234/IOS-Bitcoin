@@ -12,22 +12,22 @@ struct A19_decentralized: View {
     let af1 = """
       39. Decentralized Finance (DeFi) and Bitcoin
       """
-
+    
     let af2 = """
       Decentralized Finance (DeFi) represents a fast-growing sector within the cryptocurrency ecosystem, focusing on the creation of financial services and applications that operate on decentralized networks without intermediaries. While Bitcoin serves as a foundational pillar of the cryptocurrency space, it has limited direct involvement in DeFi due to its design and use case. Here\'s an overview of DeFi and its relationship with Bitcoin:
       """
-
+    
     let af3 = """
       1.Definition of DeFi:
       """
     let af4 = """
       Decentralized Finance (DeFi) refers to a broad category of financial services and applications built on blockchain networks, primarily Ethereum, that aim to recreate traditional financial systems in a decentralized and permissionless manner. DeFi protocols enable users to access lending, borrowing, trading, asset management, and other financial services without relying on intermediaries like banks or brokerages.
       """
-
+    
     let af5 = """
       2.Key Characteristics of DeFi:
       """
-
+    
     let af6 = """
       Decentralization:
       """
@@ -52,7 +52,7 @@ struct A19_decentralized: View {
     let af13 = """
       DeFi operates on public and transparent blockchain networks, providing real-time access to transaction data, smart contract code, and protocol governance decisions.
       """
-
+    
     let af14 = """
       3.DeFi Applications and Use Cases:
       """
@@ -80,7 +80,7 @@ struct A19_decentralized: View {
     let af21a = """
       DeFi platforms like Synthetix enable the creation and trading of synthetic assets that track the value of real-world assets, commodities, stocks, and currencies.
       """
-
+    
     let af22 = """
       4.Bitcoin\'s Role in DeFi:
       """
@@ -90,7 +90,7 @@ struct A19_decentralized: View {
     let af24 = """
       Bitcoin\'s design does not natively support complex smart contracts or decentralized applications like those found in DeFi. However, several projects are exploring ways to bridge Bitcoin and DeFi, such as wrapped Bitcoin (WBTC) tokens on the Ethereum network, allowing users to access Bitcoin liquidity within the DeFi ecosystem.
       """
-
+    
     let af25 = """
       5.Challenges and Considerations:
       """
@@ -103,7 +103,7 @@ struct A19_decentralized: View {
     let af28 = """
       Smart contract vulnerabilities, code exploits, and security breaches have resulted in significant losses for DeFi users and protocols. Auditing, security best practices, and insurance solutions are essential for mitigating risks and enhancing the security of DeFi platforms and assets.
       """
-
+    
     let af29 = """
       In summary, Decentralized Finance (DeFi) represents a revolutionary movement in the cryptocurrency space, providing innovative financial services and applications that operate without intermediaries on decentralized blockchain networks. While Bitcoin\'s primary focus remains on decentralized digital currency and store of value, its role in DeFi is limited due to its design and transaction capabilities. However, ongoing developments and initiatives aim to bridge Bitcoin and DeFi, enabling interoperability and synergy between the two ecosystems.
       """
@@ -117,36 +117,36 @@ struct A19_decentralized: View {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 15) {
                         
-                    
-
-                                        Stext(title: af2)
-
-                                        Text2(title1: af3, title2: af4)
-
-                                        Text2(title1: af6, title2: af7)
-
-                                        Text2(title1: af8, title2: af9)
-
-                                        Text2(title1: af10, title2: af11)
-
-                                        Text2(title1: af12, title2: af13)
-
-                                        Head(title: af5)
-
-                                        Text2(title1: af15, title2: af16)
-
-                                        Text2(title1: af17, title2: af18)
-
-                                        Text2(title1: af19, title2: af20)
-
-                                        Text2(title1: af21, title2: af21a)
-
-                                        Text3(title1: af22, title2: af23, title3: af24)
-
-                                          Text4(title1: af25, title2: af26, title3: af27, title4: af28)
-
-                                          Stext(title: af29)
-
+                        
+                        
+                        SStext(title: af2)
+                        
+                        Text2(title1: af3, title2: af4)
+                        
+                        Text2(title1: af6, title2: af7)
+                        
+                        Text2(title1: af8, title2: af9)
+                        
+                        Text2(title1: af10, title2: af11)
+                        
+                        Text2(title1: af12, title2: af13)
+                        
+                        Head(title: af5)
+                        
+                        Text2(title1: af15, title2: af16)
+                        
+                        Text2(title1: af17, title2: af18)
+                        
+                        Text2(title1: af19, title2: af20)
+                        
+                        Text2(title1: af21, title2: af21a)
+                        
+                        Text3(title1: af22, title2: af23, title3: af24)
+                        
+                        Text4(title1: af25, title2: af26, title3: af27, title4: af28)
+                        
+                        SStext(title: af29)
+                        
                         
                         
                         

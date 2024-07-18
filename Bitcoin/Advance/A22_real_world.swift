@@ -102,7 +102,7 @@ struct A22_real_world: View {
                         
                         
 
-                        Stext(title: ai2)
+                        SStext(title: ai2)
 
                         Text2(title1: ai3, title2: ai4)
 
@@ -124,7 +124,7 @@ struct A22_real_world: View {
 
                                  Text2(title1: ai21, title2: ai22)
 
-                                 Stext(title: ai23)
+                                 SStext(title: ai23)
 
                         
                         

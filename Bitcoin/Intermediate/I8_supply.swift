@@ -68,7 +68,7 @@ struct I8_supply: View {
                         
                      
 
-                               Stext(title: h2)
+                               SStext(title: h2)
 
                                Text2(title1: h3, title2: h4)
 
@@ -80,7 +80,7 @@ struct I8_supply: View {
 
                                Text2(title1: h11, title2: h12)
 
-                               Stext(title: h13)
+                               SStext(title: h13)
                         
                         
                         

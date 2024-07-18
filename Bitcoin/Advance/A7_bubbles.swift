@@ -111,7 +111,7 @@ struct A7_bubbles: View {
                         
                         
 
-                               Stext(title: v2)
+                               SStext(title: v2)
 
                                Head(title: v3)
 
@@ -143,7 +143,7 @@ struct A7_bubbles: View {
 
                                Text2(title1: v26, title2: v27)
 
-                               Stext(title: v28)
+                               SStext(title: v28)
 
 
                         

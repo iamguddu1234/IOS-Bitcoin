@@ -16,7 +16,7 @@ struct A2_store: View {
     let q2 = """
      Bitcoin is often referred to as "digital gold" due to its perceived similarities with the precious metal as a store of value. Here\'s an exploration of whether Bitcoin can fulfill the role of digital gold:
      """
-
+    
     let q3 = """
      1.Scarcity:
      """
@@ -26,7 +26,7 @@ struct A2_store: View {
     let q5 = """
      The limited supply of both gold and Bitcoin is seen as a key factor contributing to their value proposition as stores of value, as scarcity tends to drive demand and price appreciation over time.
      """
-
+    
     let q6 = """
      2.Portability and Divisibility:
      """
@@ -36,7 +36,7 @@ struct A2_store: View {
     let q8 = """
      While physical gold is also divisible to some extent, its bulkiness and transportation costs may limit its utility for everyday transactions or cross-border payments.
      """
-
+    
     let q9 = """
      3.Durability and Immutability:
      """
@@ -46,7 +46,7 @@ struct A2_store: View {
     let q11 = """
      While physical gold may be vulnerable to theft, loss, or confiscation, Bitcoin\'s digital nature and cryptographic security features offer advantages in terms of resilience and protection against unauthorized access.
      """
-
+    
     let q12 = """
      4.Market Perception and Adoption:
      """
@@ -56,7 +56,7 @@ struct A2_store: View {
     let q14 = """
      Gold, with its millennia-long history as a store of value and medium of exchange, enjoys widespread recognition and acceptance across cultures and civilizations. However, Bitcoin\'s appeal lies in its digital-native characteristics and potential to offer a modern alternative to traditional stores of value.
      """
-
+    
     let q15 = """
      5.Volatility and Risk:
      """
@@ -66,7 +66,7 @@ struct A2_store: View {
     let q17 = """
      Bitcoin\'s price volatility may deter risk-averse investors or those seeking stability in their store of value assets, while gold\'s established track record and lower volatility may offer greater confidence and reassurance to some investors.
      """
-
+    
     let q18 = """
      In summary, while Bitcoin shares certain characteristics with gold as a store of value, including scarcity, portability, durability, and market perception, it also exhibits unique properties as a digital asset. Whether Bitcoin can fully replace gold as a store of value remains subject to ongoing debate and depends on factors such as market adoption, regulatory acceptance, and evolving investor preferences.
      """
@@ -81,21 +81,21 @@ struct A2_store: View {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                      
-
-                               Stext(title: q2)
-
-                               Text3(title1: q3, title2: q4, title3: q5)
-
-                                Text3(title1: q6, title2: q7, title3: q8)
-
-                                 Text3(title1: q9, title2: q10, title3: q11)
-
-                                  Text3(title1: q12, title2: q13, title3: q14)
-
-                                   Text3(title1: q15, title2: q16, title3: q17)
-
-                                   Stext(title: q18)
+                        
+                        
+                        SStext(title: q2)
+                        
+                        Text3(title1: q3, title2: q4, title3: q5)
+                        
+                        Text3(title1: q6, title2: q7, title3: q8)
+                        
+                        Text3(title1: q9, title2: q10, title3: q11)
+                        
+                        Text3(title1: q12, title2: q13, title3: q14)
+                        
+                        Text3(title1: q15, title2: q16, title3: q17)
+                        
+                        SStext(title: q18)
                         
                         
                         

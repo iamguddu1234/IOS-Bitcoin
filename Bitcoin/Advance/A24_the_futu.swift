@@ -102,7 +102,7 @@ struct A24_the_futu: View {
                         
                         
 
-                               Stext(title: aj2)
+                               SStext(title: aj2)
 
                                Text2(title1: aj3, title2: aj4)
 
@@ -124,7 +124,7 @@ struct A24_the_futu: View {
 
                                Text2(title1: aj21, title2: aj22)
 
-                               Stext(title: aj23)
+                               SStext(title: aj23)
                         
                         
                         

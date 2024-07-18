@@ -74,7 +74,7 @@ struct I11_archtechture: View {
                         
                         
 
-                               Stext(title: i2)
+                               SStext(title: i2)
 
                                Text2(title1: i3, title2: i4)
 
@@ -88,7 +88,7 @@ struct I11_archtechture: View {
 
                                Text2(title1: i13, title2: i14)
 
-                               Stext(title: i15)
+                               SStext(title: i15)
                         
                         
                         

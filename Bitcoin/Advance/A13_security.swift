@@ -113,7 +113,7 @@ struct A13_security: View {
                         
                         
 
-                               Stext(title: za2)
+                               SStext(title: za2)
 
                                Text3(title1: za3, title2: za4, title3: za5)
 
@@ -131,7 +131,7 @@ struct A13_security: View {
 
                                Text3(title1: za24, title2: za25, title3: za26)
 
-                               Stext(title: za27)
+                               SStext(title: za27)
                         
                         
                         

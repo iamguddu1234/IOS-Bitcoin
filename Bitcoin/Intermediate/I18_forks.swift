@@ -92,7 +92,7 @@ struct I18_forks: View {
                         
                        
 
-                                Stext(title: o2)
+                                SStext(title: o2)
 
                                 Head(title: o3)
 
@@ -116,7 +116,7 @@ struct I18_forks: View {
 
                                 Text2(title1: o20, title2: o21)
 
-                                Stext(title: o22)
+                                SStext(title: o22)
 
                         
                         

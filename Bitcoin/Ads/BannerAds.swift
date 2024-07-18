@@ -11,13 +11,13 @@ struct BannerAds: View {
     var body: some View {
         // Bottom banner ad
         HStack {
-            Text("Bottom Banner Ad")
+            Text(" ")
                 .frame(maxWidth: .infinity)
                 .padding()
-                .background(Color.blue)
+                .background(Color("bg"))
                 .foregroundColor(.white)
         }
-        .frame(height: 50)
+        .frame(height: 20)
     }
 }
 

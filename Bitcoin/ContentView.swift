@@ -9,6 +9,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    init() {
+           setupNavigationBarAppearance()
+       }
+    
+    
     @State private var showTabBar = true // Add state variable to manage visibility of CustomTabView
     @State private var selectedTabIndex = 0
     
@@ -52,7 +58,17 @@ struct ContentView: View {
         
     }
     
-    
+    private func setupNavigationBarAppearance() {
+        let appearance = UINavigationBarAppearance()
+        appearance.configureWithOpaqueBackground()
+        appearance.backgroundColor = .white
+        appearance.titleTextAttributes = [.foregroundColor: UIColor.black]
+        appearance.largeTitleTextAttributes = [.foregroundColor: UIColor.black]
+
+        UINavigationBar.appearance().standardAppearance = appearance
+        UINavigationBar.appearance().compactAppearance = appearance
+        UINavigationBar.appearance().scrollEdgeAppearance = appearance
+    }
     
     
 }

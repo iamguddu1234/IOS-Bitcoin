@@ -76,7 +76,7 @@ struct I14_merkle_tree: View {
                         
                     
 
-                               Stext(title: l2)
+                               SStext(title: l2)
 
                                Text2(title1: l3, title2: l4)
 
@@ -90,7 +90,7 @@ struct I14_merkle_tree: View {
 
                                Text2(title1: l13, title2: l14)
 
-                               Stext(title: l15)
+                               SStext(title: l15)
                         
                         
                         

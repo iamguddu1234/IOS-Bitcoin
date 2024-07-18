@@ -74,7 +74,7 @@ struct I5_proof_of_work: View {
                         
                        
 
-                               Stext(title: e2)
+                               SStext(title: e2)
 
                                Text2(title1: e3, title2: e4)
 
@@ -88,7 +88,7 @@ struct I5_proof_of_work: View {
 
                                Text2(title1: e13, title2: e14)
 
-                               Stext(title: e15)
+                               SStext(title: e15)
                         
                         
                         

@@ -89,7 +89,7 @@ struct A23_env: View {
                         
                      
 
-                               Stext(title: aii2)
+                               SStext(title: aii2)
 
                                Text2(title1: aii3, title2: aii4)
 
@@ -107,7 +107,7 @@ struct A23_env: View {
 
                                       Text2(title1: aii17, title2: aii18)
 
-                                      Stext(title: aii19)
+                                      SStext(title: aii19)
                         
                         
                         
